@@ -144,6 +144,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [itertools crate for extra iterator capabilties](crates/itertools-crate-for-extra-iterator-capabilties.md)
 
+* [reqwest crate for HTTP requests](reqwest-crate-for-http-requests.md)
+
 * [Serde crate for serialization and deserialization](crates/serde-crate-for-serialization-and-deserialization.md)
 
 * [sqlx crate for SQL databases](crates/sqlx-crate-for-sql-databases.md)
