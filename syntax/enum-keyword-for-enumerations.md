@@ -1,4 +1,4 @@
-# Enum keyword for enumeration
+# Enum keyword for enumerations
 
 In Rust, an enum (short for "enumeration") is a custom data type that allows you to define a set of named values. Each value is called a variant, and you can use an enum to represent a fixed set of possible values for a particular data type.
 

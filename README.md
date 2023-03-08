@@ -37,7 +37,7 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [dyn trait for dynamic dispatch](syntax/dyn-trait-for-dynamic-dispatch.md)
 
-* [Enum keyword for enumeration](syntax/enum-keyword-for-enumerations.md)
+* [Enum keyword for enumerations](syntax/enum-keyword-for-enumerations.md)
 
 * [Iterators for traversing collections](syntax/iterators-for-traversing-collections.md)
 
