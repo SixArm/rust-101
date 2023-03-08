@@ -104,9 +104,9 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Box type for a smart pointer](types/box-smart-pointer.md)
 
-* [Rc (Reference Counted)](types/rc-reference-counted.md)
+* [Rc (Reference Counted) type for single-thread sharing](types/rc-reference-counted-type-for-single-thread-sharing.md)
 
-* [Arc (Atomically Reference Counted)](types/arc-atomically-reference-counted.md)
+* [Arc (Atomically Reference Counted) type for multi-thread sharing](types/arc-atomically-reference-counted-type-for-multi-thread-sharing.md)
 
 * What other types should we include here?
 

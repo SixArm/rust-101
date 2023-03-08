@@ -1,4 +1,4 @@
-# Arc (Atomically Reference Counted)
+# Arc (Atomically Reference Counted) for multi-thread sharing
 
 In Rust, `Arc` (Atomically Reference Counted) is a smart pointer that provides shared ownership of a value, similar to `Rc` (Reference Counted) smart pointer. The difference is that `Arc` can be safely shared between threads, making it useful for concurrent programming.
 
