@@ -91,7 +91,18 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * What other concepts should we include here?
 
 
-## Types
+## Traits we use often
+
+* [Debug trait for debugging and printing](traits/debug-trait-for-debugging-and-printing.md)
+
+* [Display trait for formatting](traits/display-trait-for-formatting.md)
+  
+* [From trait and Into trait for conversions](traits/from-trait-and-into-trait-for-conversions.md)
+  
+* What other traits should we include here?
+
+
+## Types we use often
 
 * [Box type for a smart pointer](types/box-smart-pointer.md)
 
@@ -102,7 +113,7 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * What other types should we include here?
 
 
-## Tooling
+## Tooling we use often
 
 * [rustup command-line tool](tooling/rustup-command-line-tool.md)
 
@@ -123,7 +134,7 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * What other tooling should we include here?
 
 
-## Crates that we use in many projects
+## Crates we use often
 
 * [Assertables crate for assert macro tests](crates/assertables-crate-for-assert-macro-tests.md)
 
