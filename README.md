@@ -9,6 +9,15 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 We welcome constructive feedback, such as topic suggestions, pull requests, etc. We're adding to Rust 101 weekly. You can star this repo if you want to get updates about Rust 101.
 
 
+## Starters
+
+* [What makes Rust a good programming language?](starters/what-makes-rust-a-good-programming-language.md)
+
+* [What are the hardest parts of Rust?](starters/what-are-the-hardest-parts-of-rust.md)
+
+* [Who might benefit from learning Rust?](starters/who-might-benefit-from-learning-rust.md)
+
+
 ## Comparisons
 
 * [Rust versus C/C++](comparisons/rust-versus-c-cpp.md)
