@@ -24,7 +24,7 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 ## Syntax
 
-* [Annotations as compiler directives](syntax/annotations-as-compiler-directives.md)
+* [Annotations for compiler directives](syntax/annotations-for-compiler-directives.md)
 
 * [Destructuring into components](syntax/destructuring-into-components.md)
 

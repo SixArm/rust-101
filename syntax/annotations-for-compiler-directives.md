@@ -1,4 +1,4 @@
-# Annotations as compiler directives
+# Annotations for compiler directives
 
 In Rust, annotations are used to provide additional information to the compiler about how code should be compiled or optimized. Annotations are usually written as attributes and are placed above the item they apply to.
 
