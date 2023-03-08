@@ -48,7 +48,7 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Trait keyword for generic code and polymorphism](syntax/trait-keyword-for-generic-code-and-polymorphism.md)
 
-* [Tuples are ordered collections](syntax/tuples-are-ordered-collections.md)
+* [Tuples for ordered collections](syntax/tuples-for-ordered-collections.md)
 
 * What other syntax should we include here?
 

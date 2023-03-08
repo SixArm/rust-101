@@ -1,4 +1,4 @@
-# Tuples are ordered collections
+# Tuples for ordered collections
 
 In Rust, a tuple is an ordered collection of values with a fixed length. Tuples can contain values of different types and are represented using parentheses with the values separated by commas.
 
