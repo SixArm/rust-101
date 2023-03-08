@@ -13,9 +13,11 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [What makes Rust a good programming language?](starters/what-makes-rust-a-good-programming-language.md)
 
-* [What are the hardest parts of Rust?](starters/what-are-the-hardest-parts-of-rust.md)
-
 * [Who might benefit from learning Rust?](starters/who-might-benefit-from-learning-rust.md)
+
+* [What are good ways to learn Rust?](starters/what-are-good-ways-to-learn-rust.md)
+
+* [What are the hardest parts of Rust?](starters/what-are-the-hardest-parts-of-rust.md)
 
 
 ## Comparisons
