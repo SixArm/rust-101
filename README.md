@@ -1,6 +1,6 @@
 # Rust 101
 
-Rust 101 is an introduction to Rust programming, with a focus on specific topics that we believe may be helpful newcomers to Rust and its ecosystem.
+Rust 101 is an introduction to Rust programming, with a focus on topic summaries that we believe can be especially helpful newcomers to Rust and its ecosystem.
 
 Rust 101 aims to explain the topics in a broad way first. We recommend reading Rust 101 along with the official Rust documentation book: [The Rust Programming Language](https://doc.rust-lang.org/book/) by Steve Klabnik and Carol Nichols, with contributions from the Rust Community.
 
