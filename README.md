@@ -80,6 +80,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Monomorphisation](concepts/monomorphisation-of-generic-code.md)
 
+* [Mutability and immutability](mutability-and-immutability.md)
+
 * [Test framework and test assertions](concepts/test-framework-and-test-assertions.md)
 
 * [Unsafe code](concepts/unsafe-code.md)
