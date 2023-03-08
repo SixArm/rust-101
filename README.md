@@ -28,8 +28,6 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Rust versus Python](comparisons/rust-versus-python.md)
 
-* What other comparisons should we include here?
-
 
 ## Syntax
 
@@ -45,9 +43,9 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Macros for metaprogramming](syntax/macros-for-metaprogramming.md)
 
-* [Rust namespaces and mod keyword for modules](syntax/namespaces-and-mod-keyword-for-modules.md)
-
 * [Match statement and match arms](syntax/match-statement-and-match-arms.md)
+
+* [Namespaces and mod keyword for modules](syntax/namespaces-and-mod-keyword-for-modules.md)
 
 * [Panic and how to handle it with a hook](syntax/panic-and-how-to-handle-it-with-a-hook.md)
 
