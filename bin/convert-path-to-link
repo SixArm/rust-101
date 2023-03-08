@@ -1,0 +1,12 @@
+{ 
+    if (match($0, /^* (.*\.md)$/,m)) {
+        path=m[1];
+        cmd = "cat " path " | grep -m1 '^# ' | sed 's/^# //'"
+        while ( ( cmd | getline headline ) > 0 ) {}
+        close(cmd);
+        print "* [" headline "](" path ")"
+    }
+    else {
+        print $0;
+    }
+}
