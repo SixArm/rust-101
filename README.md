@@ -33,6 +33,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Annotations for compiler directives](syntax/annotations-for-compiler-directives.md)
 
+* [async/await keywords for asynchronous code](async-await-keywords-for-asynchronous-code.md)
+
 * [Destructuring into components](syntax/destructuring-into-components.md)
 
 * [dyn trait for dynamic dispatch](syntax/dyn-trait-for-dynamic-dispatch.md)
