@@ -41,6 +41,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Rust for game development](uses/rust-for-game-development.md)
 
+* [Rust for graphical user interfaces (GUIs)](users/rust-for-graphical-user-interfaces-guis.md)
+
 
 ## Types & Traits
 
