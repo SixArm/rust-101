@@ -26,6 +26,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Rust versus C/C++](comparisons/rust-versus-c-cpp.md)
 
+* [Rust versus Go](comparisons/rust-versus-go.md)
+  
 * [Rust versus Java](comparisons/rust-versus-java.md)
 
 * [Rust versus JavaScript](comparisons/rust-versus-javascript.md)
