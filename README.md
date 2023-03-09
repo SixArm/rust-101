@@ -157,6 +157,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Futures for asynchronous operations](concepts/futures-for-asynchronous-operations.md)
 
+* [Model-view-controller (MVC)](concepts/model-view-controller-mvc.md)
+
 * [Monomorphisation](concepts/monomorphisation-of-generic-code.md)
 
 * [Procedural programming versus functional programming](concepts/procedural-programming-versus-functional-programming.md)
