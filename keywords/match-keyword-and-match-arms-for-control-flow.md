@@ -1,6 +1,6 @@
-# Match statement and match arms
+# Match keyword and match arms for control flow
 
-In Rust, the `match` statement is a powerful control flow construct that allows a program to match a value against a set of patterns and execute code based on the match result. The `match` statement is similar to a `switch` statement in other languages, but provides more powerful pattern matching capabilities.
+In Rust, the `match` keyword is a powerful control flow construct that allows a program to match a value against a set of patterns and execute code based on the match result. The `match` keyword and statement is similar to a `switch` keyword and statement in other languages, but `match` provides more powerful pattern matching capabilities.
 
 A match statement typically has the following syntax:
 

@@ -79,15 +79,17 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 ### Keywords we use often
 
-* [async/await keywords for asynchronous code](syntax/async-await-keywords-for-asynchronous-code.md)
+* [async/await keywords for asynchronous code](keywords/async-await-keywords-for-asynchronous-code.md)
 
-* [enum keyword for enumerations](syntax/enum-keyword-for-enumerations.md)
+* [enum keyword for enumerations](keywords/enum-keyword-for-enumerations.md)
 
-* [mod keyword for modules and namespaces](syntax/mod-keyword-for-modules-and-namespaces.md)
+* [match keyword and match arms for control flow](keywords/match-keyword-and-match-arms-for-control-flow.md)
 
-* [struct keyword for custom data types](syntax/struct-keyword-for-custom-data-types.md)
+* [mod keyword for modules and namespaces](keywords/mod-keyword-for-modules-and-namespaces.md)
 
-* [trait keyword for generic code and polymorphism](syntax/trait-keyword-for-generic-code-and-polymorphism.md)
+* [struct keyword for custom data types](keywords/struct-keyword-for-custom-data-types.md)
+
+* [trait keyword for generic code and polymorphism](keywords/trait-keyword-for-generic-code-and-polymorphism.md)
 
 
 ## Coding
@@ -104,8 +106,6 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [Closures for anonymous functions](syntax/closures-for-anonymous-functions.md)
   
 * [Macros for metaprogramming](syntax/macros-for-metaprogramming.md)
-
-* [Match statement and match arms](syntax/match-statement-and-match-arms.md)
 
 * [Panic and how to handle it with a hook](syntax/panic-and-how-to-handle-it-with-a-hook.md)
 
