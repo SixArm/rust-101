@@ -127,6 +127,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Mutability and immutability](mutability-and-immutability.md)
 
+* [Resource Acquisition Is Initialization (RAII)](concepts/resource-acquisition-is-initialization.md)
+
 * [Test framework and test assertions](concepts/test-framework-and-test-assertions.md)
 
 * [Unsafe code](concepts/unsafe-code.md)
