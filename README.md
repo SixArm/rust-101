@@ -22,7 +22,7 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * [What is a Rust "hello world" program?](starters/what-is-a-rust-hello-world-program.md)
 
 
-## Comparisons
+### Comparisons
 
 * [Rust versus C/C++](comparisons/rust-versus-c-cpp.md)
 
@@ -33,6 +33,15 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * [Rust versus JavaScript](comparisons/rust-versus-javascript.md)
 
 * [Rust versus Python](comparisons/rust-versus-python.md)
+
+
+### Specialized uses
+
+* [Rust for artificial intelligence and machine learning](uses/rust-for-artificial-intelligence-and-machine-learning.md)
+  
+* [Rust for embedded devices](uses/rust-for-embedded-devices.md)
+
+* [Rust for game development](uses/rust-for-game-development.md)
 
 
 ## Types we use often
@@ -125,7 +134,10 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * What other traits should we include here?
 
 
-## Tooling we use often
+## Ecosystem
+
+
+### Tooling we use often
 
 * [rustup command-line tool](tooling/rustup-command-line-tool.md)
 
@@ -139,33 +151,43 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Language Server Protocol (LSP)](tooling/language-server-protocol-lsp.md)
 
+* What other tooling should we include here?
+
+
+### Crates we use often with cargo
+
 * [cargo-cache crate for caching dependencies](tooling/cargo-cache-crate-for-caching-dependencies.md)
 
 * [cargo-release crate for release automation](tooling/cargo-release-crate-for-release-automation.md)
 
-* What other tooling should we include here?
 
-
-## Crates we use often
+### Crates we use often
 
 * [Assertables crate for assert macro tests](crates/assertables-crate-for-assert-macro-tests.md)
 
-* [axum crate for web services](crates/axum-crate-for-web-services.md)
-
 * [CLAP crate for command line argument parsing](crates/clap-crate-for-command-line-argument-parsing.md)
 
-* [Diesel crate for object-relational mapping](crates/diesel-crate-for-object-relational-mapping.md)
-
-* [Hyper crate for HTTP clients/servers](crates/hyper-crate-for-http-clients-servers.md)
-  
 * [itertools crate for extra iterator capabilties](crates/itertools-crate-for-extra-iterator-capabilties.md)
-
-* [reqwest crate for HTTP requests](reqwest-crate-for-http-requests.md)
 
 * [Serde crate for serialization and deserialization](crates/serde-crate-for-serialization-and-deserialization.md)
 
+* What other crates should we include here?
+
+
+### Crates we use often for database-related programs
+
+* [Diesel crate for object-relational mapping](crates/diesel-crate-for-object-relational-mapping.md)
+
 * [sqlx crate for SQL databases](crates/sqlx-crate-for-sql-databases.md)
+
+
+### Crates we use often for web-services programs
+
+* [axum crate for web services](crates/axum-crate-for-web-services.md)
+
+* [Hyper crate for HTTP clients/servers](crates/hyper-crate-for-http-clients-servers.md)
+  
+* [reqwest crate for HTTP requests](reqwest-crate-for-http-requests.md)
 
 * [Tokio crate for asynchronous and concurrent code](crates/tokio-crate-for-asynchronous-and-concurrent-code.md)
 
-* What other crates should we include here?
