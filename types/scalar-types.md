@@ -15,7 +15,7 @@ let a: i8 = 1;
 let b: i16 = 1;
 let c: i32 = 1;
 let d: i64 = 1;
-let b: i128 = 1;
+let e: i128 = 1;
 ```
 
 Unsigned integers (u8, u16, u32, u64, u128): Represent whole numbers that can only be positive. The number after the 'u' represents the number of bits the integer type uses.
@@ -25,7 +25,7 @@ let a: u8 = 1;
 let b: u16 = 1;
 let c: u32 = 1;
 let d: u64 = 1;
-let b: u128 = 1;
+let e: u128 = 1;
 ```
 
 Floating-point numbers (f32, f64): Represent decimal numbers with single or double precision.
@@ -38,5 +38,5 @@ let b: f64 = 1.0;
 Character (char): Represents a single Unicode character.
 
 ```rust
-let c: char = 'a';
+let a: char = 'a';
 ```

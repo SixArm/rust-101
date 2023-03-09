@@ -33,6 +33,25 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * [Rust versus Python](comparisons/rust-versus-python.md)
 
 
+## Types we use often
+
+* [Scalar types](types/scalar-types.md)
+  
+* [Compound types](types/compound-types.md)
+
+* [Tuples for ordered collections](syntax/tuples-for-ordered-collections.md)
+
+* [struct keyword for custom data types](syntax/struct-keyword-for-custom-data-types.md)
+
+* [Box type for a smart pointer](types/box-smart-pointer.md)
+
+* [Rc (Reference Counted) type for single-thread sharing](types/rc-reference-counted-type-for-single-thread-sharing.md)
+
+* [Arc (Atomically Reference Counted) type for multi-thread sharing](types/arc-atomically-reference-counted-type-for-multi-thread-sharing.md)
+
+* What other types should we include here?
+
+
 ## Syntax
 
 * [Annotations for compiler directives](syntax/annotations-for-compiler-directives.md)
@@ -57,11 +76,7 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Range syntax for a sequence of values](syntax/range-syntax-for-a-sequence-of-values.md)
 
-* [struct keyword for custom data types](syntax/struct-keyword-for-custom-data-types.md)
-
 * [Trait keyword for generic code and polymorphism](syntax/trait-keyword-for-generic-code-and-polymorphism.md)
-
-* [Tuples for ordered collections](syntax/tuples-for-ordered-collections.md)
 
 * What other syntax should we include here?
 
@@ -104,21 +119,6 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * [From trait and Into trait for conversions](traits/from-trait-and-into-trait-for-conversions.md)
   
 * What other traits should we include here?
-
-
-## Types we use often
-
-* [Scalar types](types/scalar-types.md)
-  
-* [Compound types](types/compound-types.md)
-  
-* [Box type for a smart pointer](types/box-smart-pointer.md)
-
-* [Rc (Reference Counted) type for single-thread sharing](types/rc-reference-counted-type-for-single-thread-sharing.md)
-
-* [Arc (Atomically Reference Counted) type for multi-thread sharing](types/arc-atomically-reference-counted-type-for-multi-thread-sharing.md)
-
-* What other types should we include here?
 
 
 ## Tooling we use often
