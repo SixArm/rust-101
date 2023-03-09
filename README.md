@@ -165,6 +165,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Resource Acquisition Is Initialization (RAII)](concepts/resource-acquisition-is-initialization.md)
 
+* [SOLID principles for software design](concepts/solid-principles-for-software-design.md)
+
 * [Test framework and test assertions](concepts/test-framework-and-test-assertions.md)
 
 * [Unsafe code](concepts/unsafe-code.md)
