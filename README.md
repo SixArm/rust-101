@@ -44,7 +44,10 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * [Rust for game development](uses/rust-for-game-development.md)
 
 
-## Types we use often
+## Types & Traits
+
+
+### Types we use often
 
 * [Scalar types](types/scalar-types.md)
   
@@ -60,18 +63,30 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Arc (Atomically Reference Counted) type for multi-thread sharing](types/arc-atomically-reference-counted-type-for-multi-thread-sharing.md)
 
-* What other types should we include here?
+
+### Traits we use often
+
+* [Debug trait for debugging and printing](traits/debug-trait-for-debugging-and-printing.md)
+
+* [Display trait for formatting](traits/display-trait-for-formatting.md)
+  
+* [dyn trait for dynamic dispatch](traits/dyn-trait-for-dynamic-dispatch.md)
+
+* [Eq, PartialEq, Ord, PartialOrd, Hash traits for comparisons](traits/eq-partialeq-ord-partialord-hash-traits-for-comparisons.md)
+  
+* [From trait and Into trait for conversions](traits/from-trait-and-into-trait-for-conversions.md)
 
 
-## Syntax
+## Coding
+
+
+### Syntax
 
 * [Annotations for compiler directives](syntax/annotations-for-compiler-directives.md)
 
 * [async/await keywords for asynchronous code](async-await-keywords-for-asynchronous-code.md)
 
 * [Destructuring into components](syntax/destructuring-into-components.md)
-
-* [dyn trait for dynamic dispatch](syntax/dyn-trait-for-dynamic-dispatch.md)
 
 * [Enum keyword for enumerations](syntax/enum-keyword-for-enumerations.md)
 
@@ -91,10 +106,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Trait keyword for generic code and polymorphism](syntax/trait-keyword-for-generic-code-and-polymorphism.md)
 
-* What other syntax should we include here?
 
-
-## Concepts
+### Concepts
 
 * [Borrow checker](concepts/borrow-checker.md)
 
@@ -119,19 +132,6 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * [Unsafe code](concepts/unsafe-code.md)
 
 * [Zero-cost abstractions](concepts/zero-cost-abstractions.md)
-
-* What other concepts should we include here?
-
-
-## Traits we use often
-
-* [Debug trait for debugging and printing](traits/debug-trait-for-debugging-and-printing.md)
-
-* [Display trait for formatting](traits/display-trait-for-formatting.md)
-  
-* [From trait and Into trait for conversions](traits/from-trait-and-into-trait-for-conversions.md)
-  
-* What other traits should we include here?
 
 
 ## Ecosystem
