@@ -145,6 +145,15 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [Mutability and immutability](topics/mutability-and-immutability.md)
 
 
+### Testing
+
+* [Test framework and test assertions](topics/testing/test-framework-and-test-assertions.md)
+
+* [Test-driven development (TDD)](topics/testing/test-driven-development-tdd.md)
+  
+* [Integration testing](topics/testing/integration-testing.md)
+
+
 ### Concepts
 
 * [Borrow checker](topics/concepts/borrow-checker.md)
@@ -175,10 +184,6 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [SOLID principles for software design](topics/concepts/solid-principles-for-software-design.md)
 
-* [Test framework and test assertions](topics/concepts/test-framework-and-test-assertions.md)
-
-* [Test-driven development (TDD)](topics/concepts/test-driven-development-tdd.md)
-  
 * [Unsafe code](topics/concepts/unsafe-code.md)
 
 * [WebAssembly (WASM)](topics/concepts/webassembly-wasm.md)
