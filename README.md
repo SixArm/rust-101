@@ -66,6 +66,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 ### Traits we use often
 
+* [Copy trait and Clone trait for duplicating values](traits/copy-trait-and-clone-trait-for-duplication.md)
+
 * [Debug trait for debugging and printing](traits/debug-trait-for-debugging-and-printing.md)
 
 * [Display trait for formatting](traits/display-trait-for-formatting.md)
