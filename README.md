@@ -149,11 +149,13 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Test framework and test assertions](topics/testing/test-framework-and-test-assertions.md)
 
-* [Test-driven development (TDD)](topics/testing/test-driven-development-tdd.md)
-
 * [Unit testing](topics/testing/unit-testing.md)
 
 * [Integration testing](topics/testing/integration-testing.md)
+
+* [Documentation testing](topics/testing/documentation-testing.md)
+
+* [Test-driven development (TDD)](topics/testing/test-driven-development-tdd.md)
 
 
 ### Concepts
