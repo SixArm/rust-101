@@ -50,6 +50,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Rust versus Python](topics/comparisons/rust-versus-python.md)
 
+* [Rust versus Nim](topics/starters/../comparisons/rust-versus-nim.md)
+
 
 ### Specialized uses
 
