@@ -149,6 +149,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Unsafe code](concepts/unsafe-code.md)
 
+* [WebAssembly (WASM)](concepts/webassembly-wasm.md)
+
 * [Zero-cost abstractions](concepts/zero-cost-abstractions.md)
 
 
