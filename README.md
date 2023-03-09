@@ -9,17 +9,22 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 ## Starters
 
+* [What is a Rust "hello world" program?](starters/what-is-a-rust-hello-world-program.md)
+
 * [What makes Rust a good programming language?](starters/what-makes-rust-a-good-programming-language.md)
 
 * [What is the Rust ecosystem?](starters/what-is-the-rust-ecosystem.md)
   
-* [What is a Rust "hello world" program?](starters/what-is-a-rust-hello-world-program.md)
+* [Who are Rust leaders?](starters/who-are-rust-leaders.md)
+
+
+### Learning
 
 * [Who might benefit from learning Rust?](starters/who-might-benefit-from-learning-rust.md)
 
 * [What are good ways to learn Rust?](starters/what-are-good-ways-to-learn-rust.md)
 
-* [Who are Rust leaders?](starters/who-are-rust-leaders.md)
+* [What are good open source projects for learning Rust?](starters/what-are-good-open-source-projects-for-learning-rust.md)
   
 
 ### Caveats
