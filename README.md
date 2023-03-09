@@ -68,6 +68,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Iterators for traversing collections](syntax/iterators-for-traversing-collections.md)
 
+* [Closures for anonymous functions](syntax/closures-for-anonymous-functions.md)
+  
 * [Macros for metaprogramming](syntax/macros-for-metaprogramming.md)
 
 * [Match statement and match arms](syntax/match-statement-and-match-arms.md)
