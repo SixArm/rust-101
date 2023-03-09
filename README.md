@@ -150,6 +150,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Diesel crate for object-relational mapping](crates/diesel-crate-for-object-relational-mapping.md)
 
+* [Hyper crate for HTTP clients/servers](crates/hyper-crate-for-http-clients-servers.md)
+  
 * [itertools crate for extra iterator capabilties](crates/itertools-crate-for-extra-iterator-capabilties.md)
 
 * [reqwest crate for HTTP requests](reqwest-crate-for-http-requests.md)
