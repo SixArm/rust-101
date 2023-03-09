@@ -133,6 +133,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Mutability and immutability](mutability-and-immutability.md)
 
+* [Procedural programming versus functional programming](concepts/procedural-programming-versus-functional-programming.md)
+
 * [Resource Acquisition Is Initialization (RAII)](concepts/resource-acquisition-is-initialization.md)
 
 * [Test framework and test assertions](concepts/test-framework-and-test-assertions.md)
