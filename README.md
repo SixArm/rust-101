@@ -216,6 +216,10 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [log crate for logging messages](topics/crates/log-crate-for-logging-messages.md)
 
+* [once_cell crate for lazy global variables](topics/crates/once-cell-crate-for-lazy-global-variables.md)
+ 
+* [regex crate for regular expressions](topics/crates/regex-crate-for-regular-expressions.md)
+  
 * [reqwest crate for HTTP requests](topics/reqwest-crate-for-http-requests.md)
 
 * [Serde crate for serialization and deserialization](topics/crates/serde-crate-for-serialization-and-deserialization.md)
@@ -237,6 +241,15 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [cargo-dist crate for distribution archives](topics/crates/cargo-dist-crate-for-distribution-archives.md)
 
 * [cargo-release crate for release automation](topics/crates/cargo-release-crate-for-release-automation.md)
+
+
+### Crates we like for data analysis
+
+* [arrow-csv crate for parsing CSV data to Arrow data](topics/crates/arrow-csv-crate-for-parsing-csv-data-to-arrow-data.md)
+
+* [CSV crate for comma-separated values](topics/crates/csv-crate-for-comma-separated-values.md)
+
+* [Polars crate for data analysis](topics/crates/polars-crate-for-data-analysis.md)
 
 
 ### Crates we like for database access
