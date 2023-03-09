@@ -79,13 +79,15 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 ### Keywords we use often
 
+* [async/await keywords for asynchronous code](syntax/async-await-keywords-for-asynchronous-code.md)
+
 * [enum keyword for enumerations](syntax/enum-keyword-for-enumerations.md)
+
+* [mod keyword for modules and namespaces](syntax/mod-keyword-for-modules-and-namespaces.md)
 
 * [struct keyword for custom data types](syntax/struct-keyword-for-custom-data-types.md)
 
 * [trait keyword for generic code and polymorphism](syntax/trait-keyword-for-generic-code-and-polymorphism.md)
-
-* [mod keyword for modules and namespaces](syntax/mod-keyword-for-modules-and-namespaces.md)
 
 
 ## Coding
@@ -94,8 +96,6 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 ### Syntax
 
 * [Annotations for compiler directives](syntax/annotations-for-compiler-directives.md)
-
-* [async/await keywords for asynchronous code](async-await-keywords-for-asynchronous-code.md)
 
 * [Destructuring into components](syntax/destructuring-into-components.md)
 
