@@ -170,6 +170,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [itertools crate for extra iterator capabilties](crates/itertools-crate-for-extra-iterator-capabilties.md)
 
+* [reqwest crate for HTTP requests](reqwest-crate-for-http-requests.md)
+
 * [Serde crate for serialization and deserialization](crates/serde-crate-for-serialization-and-deserialization.md)
 
 
@@ -206,7 +208,5 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Hyper crate for HTTP clients/servers](crates/hyper-crate-for-http-clients-servers.md)
   
-* [reqwest crate for HTTP requests](reqwest-crate-for-http-requests.md)
-
 * [Tokio crate for asynchronous and concurrent code](crates/tokio-crate-for-asynchronous-and-concurrent-code.md)
 
