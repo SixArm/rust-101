@@ -153,6 +153,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Abstract syntax tree (AST)](tooling/abstract-syntax-tree-ast.md)
 
+* [Tree-sitter parsing library](tooling/tree-sitter-parsing-library.md)
+  
 * [Language Server Protocol (LSP)](tooling/language-server-protocol-lsp.md)
 
 
