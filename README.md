@@ -150,6 +150,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Assertables crate for assert macro tests](crates/assertables-crate-for-assert-macro-tests.md)
 
+* [axum crate for web services](crates/axum-crate-for-web-services.md)
+
 * [CLAP crate for command line argument parsing](crates/clap-crate-for-command-line-argument-parsing.md)
 
 * [Diesel crate for object-relational mapping](crates/diesel-crate-for-object-relational-mapping.md)
