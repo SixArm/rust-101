@@ -151,15 +151,6 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Language Server Protocol (LSP)](tooling/language-server-protocol-lsp.md)
 
-* What other tooling should we include here?
-
-
-### Crates we use often with cargo
-
-* [cargo-cache crate for caching dependencies](tooling/cargo-cache-crate-for-caching-dependencies.md)
-
-* [cargo-release crate for release automation](tooling/cargo-release-crate-for-release-automation.md)
-
 
 ### Crates we use often
 
@@ -171,7 +162,14 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Serde crate for serialization and deserialization](crates/serde-crate-for-serialization-and-deserialization.md)
 
-* What other crates should we include here?
+
+### Crates we use often with cargo
+
+* [cargo-cache crate for caching dependencies](crates/cargo-cache-crate-for-caching-dependencies.md)
+
+* [cargo-dist crate for distribution archives](crates/cargo-dist-crate-for-distribution-archives.md)
+
+* [cargo-release crate for release automation](crates/cargo-release-crate-for-release-automation.md)
 
 
 ### Crates we use often for database-related programs
