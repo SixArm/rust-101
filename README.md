@@ -115,6 +115,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [Channels for communication between threads](concepts/channels-for-communication-between-threads.md)
 
+* [Design patterns](concepts/design-patterns.rs)
+  
 * [Foreign Function Interface (FFI)](concepts/foreign-function-interface-ffi.md)
 
 * [Futures for asynchronous operations](concepts/futures-for-asynchronous-operations.md)
