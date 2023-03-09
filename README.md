@@ -163,6 +163,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Clippy linting](tooling/clippy-linting.md)
 
+* [Cross-compiling for multiple platforms](tooling/cross-compiling-for-multiple-platforms.md)
+
 
 ### Tooling concepts
 
@@ -178,7 +180,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 ## Crates
 
 
-### Crates we use especially often
+### Crates we like for many of our programs
 
 * [Assertables crate for assert macro tests](crates/assertables-crate-for-assert-macro-tests.md)
 
