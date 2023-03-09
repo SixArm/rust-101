@@ -106,6 +106,10 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 ## Types we use often
 
+* [Scalar types](types/scalar-types.md)
+  
+* [Compound types](types/compound-types.md)
+  
 * [Box type for a smart pointer](types/box-smart-pointer.md)
 
 * [Rc (Reference Counted) type for single-thread sharing](types/rc-reference-counted-type-for-single-thread-sharing.md)
