@@ -163,7 +163,7 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * [Serde crate for serialization and deserialization](crates/serde-crate-for-serialization-and-deserialization.md)
 
 
-### Crates we use often with cargo
+### Crates we suggest for cargo-related infrastructure
 
 * [cargo-cache crate for caching dependencies](crates/cargo-cache-crate-for-caching-dependencies.md)
 
@@ -172,14 +172,16 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 * [cargo-release crate for release automation](crates/cargo-release-crate-for-release-automation.md)
 
 
-### Crates we use often for database-related programs
+### Crates we suggest for database-related programs
 
 * [Diesel crate for object-relational mapping](crates/diesel-crate-for-object-relational-mapping.md)
+
+* [Rusqlite crate for SQLite databases](crates/rusqlite-crate-for-sqlite-databases.md)
 
 * [sqlx crate for SQL databases](crates/sqlx-crate-for-sql-databases.md)
 
 
-### Crates we use often for web-services programs
+### Crates we suggest for web-services programs
 
 * [axum crate for web services](crates/axum-crate-for-web-services.md)
 
