@@ -114,17 +114,19 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 ### Memory
 
-* [Borrow checker](concepts/borrow-checker.md)
-
 * [Memory lifetimes](concepts/memory-lifetimes.md)
 
 * [Memory on the stack or the heap](concepts/memory-on-the-stack-or-the-heap.md)
+
+* [Memory ownership and borrowing](concepts/memory-ownership-and-borrowing.md)
 
 * [Mutability and immutability](mutability-and-immutability.md)
 
 
 ### Concepts
 
+* [Borrow checker](concepts/borrow-checker.md)
+  
 * [Concurrency and parallelism](concepts/concurrency-and-parallelism.md)
 
 * [Channels for communication between threads](concepts/channels-for-communication-between-threads.md)
