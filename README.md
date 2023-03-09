@@ -19,6 +19,8 @@ We welcome constructive feedback, such as topic suggestions, pull requests, etc.
 
 * [What are the hardest parts of Rust?](starters/what-are-the-hardest-parts-of-rust.md)
 
+* [What is a Rust "hello world" program?](starters/what-is-a-rust-hello-world-program.md)
+
 
 ## Comparisons
 
