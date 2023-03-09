@@ -177,6 +177,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Test framework and test assertions](topics/concepts/test-framework-and-test-assertions.md)
 
+* [Test-driven development (TDD)](topics/concepts/test-driven-development-tdd.md)
+  
 * [Unsafe code](topics/concepts/unsafe-code.md)
 
 * [WebAssembly (WASM)](topics/concepts/webassembly-wasm.md)
