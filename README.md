@@ -13,8 +13,10 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [What makes Rust a good programming language?](starters/what-makes-rust-a-good-programming-language.md)
 
-* [What is the Rust ecosystem?](starters/what-is-the-rust-ecosystem.md)
+* [How does Rust use programming language theory?](starters/how-does-rust-use-programming-language-theory.md)
   
+* [What is the Rust ecosystem?](starters/what-is-the-rust-ecosystem.md)
+
 * [Who are Rust leaders?](starters/who-are-rust-leaders.md)
 
 
