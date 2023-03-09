@@ -2,7 +2,7 @@
 
 Integration testing is a software testing technique where individual software modules are tested as a group to validate their combined functionality. In Rust, integration testing involves testing the interactions between different modules or components of the software.
 
-Rust provides a built-in testing framework for integration testing called cargo test. Here are the steps involved in Rust integration testing:
+Rust provides a built-in testing framework for integration testing called `cargo test`. Here are the steps involved in Rust integration testing:
 
 * Create a separate directory for integration tests: Integration tests in Rust are typically placed in a separate directory called `tests` at the top level of the project. This directory contains Rust files that end with `_test.rs`.
 
