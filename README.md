@@ -157,6 +157,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Design patterns](topics/concepts/design-patterns.rs)
   
+* [Domain-driven design (DDD)](topics/concepts/domain-driven-design-ddd.md)
+  
 * [Error messages](topics/concepts/error-messages.md)
   
 * [Foreign Function Interface (FFI)](topics/concepts/foreign-function-interface-ffi.md)
