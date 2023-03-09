@@ -1,4 +1,4 @@
-# Namespaces and mod keyword for modules
+# mod keyword for modules and namespaces
 
 In Rust, namespaces are a way to organize and group related items, such as functions, types, and constants, under a common name. Namespaces are implemented using modules, which are Rust's primary mechanism for organizing code into reusable components.
 

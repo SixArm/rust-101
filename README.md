@@ -44,7 +44,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [Rust for graphical user interfaces (GUIs)](users/rust-for-graphical-user-interfaces-guis.md)
 
 
-## Types & Traits
+## Types & traits & keywords
 
 
 ### Types we use often
@@ -54,8 +54,6 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [Compound types](types/compound-types.md)
 
 * [Tuples for ordered collections](syntax/tuples-for-ordered-collections.md)
-
-* [struct keyword for custom data types](syntax/struct-keyword-for-custom-data-types.md)
 
 * [Box type for a smart pointer](types/box-smart-pointer.md)
 
@@ -79,6 +77,17 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [From trait and Into trait for conversions](traits/from-trait-and-into-trait-for-conversions.md)
 
 
+### Keywords we use often
+
+* [enum keyword for enumerations](syntax/enum-keyword-for-enumerations.md)
+
+* [struct keyword for custom data types](syntax/struct-keyword-for-custom-data-types.md)
+
+* [trait keyword for generic code and polymorphism](syntax/trait-keyword-for-generic-code-and-polymorphism.md)
+
+* [mod keyword for modules and namespaces](syntax/mod-keyword-for-modules-and-namespaces.md)
+
+
 ## Coding
 
 
@@ -90,8 +99,6 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Destructuring into components](syntax/destructuring-into-components.md)
 
-* [Enum keyword for enumerations](syntax/enum-keyword-for-enumerations.md)
-
 * [Iterators for traversing collections](syntax/iterators-for-traversing-collections.md)
 
 * [Closures for anonymous functions](syntax/closures-for-anonymous-functions.md)
@@ -100,18 +107,23 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Match statement and match arms](syntax/match-statement-and-match-arms.md)
 
-* [Namespaces and mod keyword for modules](syntax/namespaces-and-mod-keyword-for-modules.md)
-
 * [Panic and how to handle it with a hook](syntax/panic-and-how-to-handle-it-with-a-hook.md)
 
 * [Range syntax for a sequence of values](syntax/range-syntax-for-a-sequence-of-values.md)
 
-* [Trait keyword for generic code and polymorphism](syntax/trait-keyword-for-generic-code-and-polymorphism.md)
+
+### Memory
+
+* [Borrow checker](concepts/borrow-checker.md)
+
+* [Memory lifetimes](concepts/memory-lifetimes.md)
+
+* [Memory on the stack or the heap](concepts/memory-on-the-stack-or-the-heap.md)
+
+* [Mutability and immutability](mutability-and-immutability.md)
 
 
 ### Concepts
-
-* [Borrow checker](concepts/borrow-checker.md)
 
 * [Concurrency and parallelism](concepts/concurrency-and-parallelism.md)
 
@@ -125,13 +137,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Futures for asynchronous operations](concepts/futures-for-asynchronous-operations.md)
 
-* [Memory lifetimes](concepts/memory-lifetimes.md)
-
-* [Memory on the stack or the heap](concepts/memory-on-the-stack-or-the-heap.md)
-
 * [Monomorphisation](concepts/monomorphisation-of-generic-code.md)
-
-* [Mutability and immutability](mutability-and-immutability.md)
 
 * [Procedural programming versus functional programming](concepts/procedural-programming-versus-functional-programming.md)
 
