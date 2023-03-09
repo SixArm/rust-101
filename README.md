@@ -38,6 +38,17 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [Why do companies not use Rust?](topics/starters/why-do-companies-not-use-rust.md)
 
 
+### Specialized uses
+
+* [Rust for artificial intelligence and machine learning](topics/uses/rust-for-artificial-intelligence-and-machine-learning.md)
+  
+* [Rust for embedded devices](topics/uses/rust-for-embedded-devices.md)
+
+* [Rust for game development](topics/uses/rust-for-game-development.md)
+
+* [Rust for graphical user interfaces (GUIs)](topics/users/rust-for-graphical-user-interfaces-guis.md)
+
+
 ### Comparisons
 
 * [Rust versus C/C++](topics/comparisons/rust-versus-c-cpp.md)
@@ -53,17 +64,6 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [Rust versus Python](topics/comparisons/rust-versus-python.md)
 
 * [Rust versus Zig](topics/comparisons/rust-versus-zig.md)
-
-
-### Specialized uses
-
-* [Rust for artificial intelligence and machine learning](topics/uses/rust-for-artificial-intelligence-and-machine-learning.md)
-  
-* [Rust for embedded devices](topics/uses/rust-for-embedded-devices.md)
-
-* [Rust for game development](topics/uses/rust-for-game-development.md)
-
-* [Rust for graphical user interfaces (GUIs)](topics/users/rust-for-graphical-user-interfaces-guis.md)
 
 
 ## Types & traits & keywords
