@@ -117,6 +117,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Channels for communication between threads](concepts/channels-for-communication-between-threads.md)
 
+* [Dependency injection (DI) to reduce coupling](concepts/dependency-injection-di-to-reduce-coupling.md)
+
 * [Design patterns](concepts/design-patterns.rs)
   
 * [Foreign Function Interface (FFI)](concepts/foreign-function-interface-ffi.md)
