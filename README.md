@@ -57,6 +57,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Monomorphisation](topics/concepts/monomorphisation-of-generic-code.md)
 
+* [Rustfmt for code formatting]()
+
 * [Unsafe code](topics/concepts/unsafe-code.md)
 
 * [WebAssembly (WASM)](topics/concepts/webassembly-wasm.md)
@@ -185,7 +187,22 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Documentation testing](topics/testing/documentation-testing.md)
 
+* [Source-based coverage](topics/testing/source-based-coverage.md)
+
 * [Test-driven development (TDD)](topics/testing/test-driven-development-tdd.md)
+
+
+### Examples
+
+* [Access a SQLite database with rusqlite crate](topics/examples/acccess-a-sqlite-database-with-rusqlite-crate.md)
+  
+* [Make HTTP GET request with reqwest crate](topics/examples/make-http-get-request-with-reqwest-crate.md)
+
+* [Parse JSON data with Serde crate](topics/examples/parse-json-data-with-serde-crate.md)
+
+* [Read a CSV file with CSV crate](topics/examples/read-a-csv-file-with-csv-crate.md)
+
+* [Search a text file with regex crate](topics/examples/search-a-text-file-by-with-regex-crate.md)
 
 
 ### Software patterns, idioms, paradigms
@@ -218,8 +235,10 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Clippy linting](topics/tooling/clippy-linting.md)
 
-* [Cross-compiling for multiple platforms](topics/tooling/cross-compiling-for-multiple-platforms.md)
+* [Rustfmt for code formatting](topics/tooling/rustfmt-for-code-formatting.md)
 
+* [Cross-compiling for multiple platforms](topics/tooling/cross-compiling-for-multiple-platforms.md)
+  
 
 ### Tooling concepts
 
@@ -269,6 +288,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [cargo-release crate for release automation](topics/crates/cargo-release-crate-for-release-automation.md)
 
+* [cargo-make crate for task runners](topics/crates/cargo-make-crate-for-task-runners.md)
+  
 
 ### Crates we like for concurrency and parallelism
 

@@ -1,4 +1,4 @@
-# parking_lot crate for data structures
+# parking_lot crate for synchronization
 
 The Rust `parking_lot` crate is a that provides synchronization primitives for Rust programs. Specifically, the crate provides a set of concurrent data structures that are designed to be faster and more efficient than the ones provided by Rust's standard library.
 
