@@ -91,6 +91,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Rust for graphical user interfaces (GUIs)](topics/users/rust-for-graphical-user-interfaces-guis.md)
 
+* [Rust for Linux drivers](topics/uses/rust-for-linux-drivers.md)
+
 
 ## Types & traits & keywords
 
@@ -190,17 +192,19 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Design patterns](topics/concepts/design-patterns.rs)
 
-* [Dependency injection (DI) to reduce coupling](topics/concepts/dependency-injection-di-to-reduce-coupling.md)
+* [Dependency injection (DI)](topics/concepts/dependency-injection-di.md)
 
 * [Domain-driven design (DDD)](topics/concepts/domain-driven-design-ddd.md)
   
 * [Model-view-controller (MVC)](topics/concepts/model-view-controller-mvc.md)
 
+* [Object-oriented programming versus functional programming](topics/concepts/object-oriented-programming-versus-functional-programming.md)
+
+* [Procedural programming versus functional programming](topics/concepts/procedural-programming-versus-functional-programming.md)
+
 * [Resource Acquisition Is Initialization (RAII)](topics/concepts/resource-acquisition-is-initialization.md)
 
 * [SOLID principles for software design](topics/concepts/solid-principles-for-software-design.md)
-
-* [Procedural programming versus functional programming](topics/concepts/procedural-programming-versus-functional-programming.md)
 
 
 ## Tooling
