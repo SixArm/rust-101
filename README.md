@@ -70,9 +70,9 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Borrow checker](topics/concepts/borrow-checker.md)
   
-* [Concurrency and parallelism](topics/concepts/concurrency-and-parallelism.md)
-
 * [Channels for communication between threads](topics/concepts/channels-for-communication-between-threads.md)
+
+* [Concurrency and parallelism](topics/concepts/concurrency-and-parallelism.md)
 
 * [Error messages](topics/concepts/error-messages.md)
   
@@ -261,6 +261,15 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [cargo-dist crate for distribution archives](topics/crates/cargo-dist-crate-for-distribution-archives.md)
 
 * [cargo-release crate for release automation](topics/crates/cargo-release-crate-for-release-automation.md)
+
+
+### Crates we like for concurrency and parallelism
+
+* [Crossbeam crate for concurrency](topics/crates/crossbeam-crate-for-concurrency.md)
+
+* [parking_lot crate for synchronization](topics/crates/parking-lot-crate-for-syncroniziation.md)
+
+* [Rayon crate for parallelism](topics/crates/rayon-crate-for-parallelism.md)
 
 
 ### Crates we like for data analysis
