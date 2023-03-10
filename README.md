@@ -98,6 +98,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
   
 * [From trait and Into trait for conversions](topics/traits/from-trait-and-into-trait-for-conversions.md)
 
+* [Send trait and Sync trait for multithreading](topics/traits/send-trait-and-sync-trait-for-multithreading.md)
+
 
 ### Keywords we use often
 
