@@ -160,7 +160,24 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [Test-driven development (TDD)](topics/testing/test-driven-development-tdd.md)
 
 
-### Concepts
+### Software patterns, idioms, paradigms
+
+* [Design patterns](topics/concepts/design-patterns.rs)
+
+* [Dependency injection (DI) to reduce coupling](topics/concepts/dependency-injection-di-to-reduce-coupling.md)
+
+* [Domain-driven design (DDD)](topics/concepts/domain-driven-design-ddd.md)
+  
+* [Model-view-controller (MVC)](topics/concepts/model-view-controller-mvc.md)
+
+* [Resource Acquisition Is Initialization (RAII)](topics/concepts/resource-acquisition-is-initialization.md)
+
+* [SOLID principles for software design](topics/concepts/solid-principles-for-software-design.md)
+
+* [Procedural programming versus functional programming](topics/concepts/procedural-programming-versus-functional-programming.md)
+
+
+### Misc. Concepts
 
 * [Borrow checker](topics/concepts/borrow-checker.md)
   
@@ -168,27 +185,13 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Channels for communication between threads](topics/concepts/channels-for-communication-between-threads.md)
 
-* [Dependency injection (DI) to reduce coupling](topics/concepts/dependency-injection-di-to-reduce-coupling.md)
-
-* [Design patterns](topics/concepts/design-patterns.rs)
-  
-* [Domain-driven design (DDD)](topics/concepts/domain-driven-design-ddd.md)
-  
 * [Error messages](topics/concepts/error-messages.md)
   
 * [Foreign Function Interface (FFI)](topics/concepts/foreign-function-interface-ffi.md)
 
 * [Futures for asynchronous operations](topics/concepts/futures-for-asynchronous-operations.md)
 
-* [Model-view-controller (MVC)](topics/concepts/model-view-controller-mvc.md)
-
 * [Monomorphisation](topics/concepts/monomorphisation-of-generic-code.md)
-
-* [Procedural programming versus functional programming](topics/concepts/procedural-programming-versus-functional-programming.md)
-
-* [Resource Acquisition Is Initialization (RAII)](topics/concepts/resource-acquisition-is-initialization.md)
-
-* [SOLID principles for software design](topics/concepts/solid-principles-for-software-design.md)
 
 * [Unsafe code](topics/concepts/unsafe-code.md)
 
