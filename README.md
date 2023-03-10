@@ -66,6 +66,29 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [Rust versus Zig](topics/comparisons/rust-versus-zig.md)
 
 
+### What makes Rust special?
+
+* [Borrow checker](topics/concepts/borrow-checker.md)
+  
+* [Concurrency and parallelism](topics/concepts/concurrency-and-parallelism.md)
+
+* [Channels for communication between threads](topics/concepts/channels-for-communication-between-threads.md)
+
+* [Error messages](topics/concepts/error-messages.md)
+  
+* [Foreign Function Interface (FFI)](topics/concepts/foreign-function-interface-ffi.md)
+
+* [Futures for asynchronous operations](topics/concepts/futures-for-asynchronous-operations.md)
+
+* [Monomorphisation](topics/concepts/monomorphisation-of-generic-code.md)
+
+* [Unsafe code](topics/concepts/unsafe-code.md)
+
+* [WebAssembly (WASM)](topics/concepts/webassembly-wasm.md)
+
+* [Zero-cost abstractions](topics/concepts/zero-cost-abstractions.md)
+
+
 ## Types & traits & keywords
 
 
@@ -175,29 +198,6 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [SOLID principles for software design](topics/concepts/solid-principles-for-software-design.md)
 
 * [Procedural programming versus functional programming](topics/concepts/procedural-programming-versus-functional-programming.md)
-
-
-### Rust concepts that are notably different from languages
-
-* [Borrow checker](topics/concepts/borrow-checker.md)
-  
-* [Concurrency and parallelism](topics/concepts/concurrency-and-parallelism.md)
-
-* [Channels for communication between threads](topics/concepts/channels-for-communication-between-threads.md)
-
-* [Error messages](topics/concepts/error-messages.md)
-  
-* [Foreign Function Interface (FFI)](topics/concepts/foreign-function-interface-ffi.md)
-
-* [Futures for asynchronous operations](topics/concepts/futures-for-asynchronous-operations.md)
-
-* [Monomorphisation](topics/concepts/monomorphisation-of-generic-code.md)
-
-* [Unsafe code](topics/concepts/unsafe-code.md)
-
-* [WebAssembly (WASM)](topics/concepts/webassembly-wasm.md)
-
-* [Zero-cost abstractions](topics/concepts/zero-cost-abstractions.md)
 
 
 ## Tooling
