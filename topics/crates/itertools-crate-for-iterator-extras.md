@@ -1,4 +1,5 @@
-# itertools crate for extra iterator capabilties
+
+# itertools crate for iterator extras
 
 Link: <https://crates.io/crates/itertools>
 

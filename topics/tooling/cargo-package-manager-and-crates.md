@@ -1,6 +1,6 @@
-# Cargo package manager and crate packages
+# Cargo package manager and crates
 
-In Rust, Cargo is the package manager and build tool that is used to manage Rust projects and their dependencies. It provides a standardized way to build, test, and distribute Rust code.
+In Rust, Cargo is the package manager and build tool that manages Rust projects and their dependencies. It provides a standardized way to build, test, and distribute Rust code.
 
 Cargo uses a file called `Cargo.toml` to manage the configuration and dependencies of a Rust project. The `Cargo.toml` file specifies the name of the package, version information, and the dependencies of the project. Cargo also provides a command-line interface that allows developers to manage their Rust projects and dependencies easily.
 

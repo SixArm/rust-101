@@ -1,4 +1,4 @@
-# CLAP crate for command line argument parsing
+# CLAP crate for command line arg parsing
 
 Link: <https://crates.io/crates/clap>
 

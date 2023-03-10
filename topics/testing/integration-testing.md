@@ -8,7 +8,7 @@ Rust provides a built-in testing framework for integration testing called `cargo
 
 * Write the integration tests: Integration tests in Rust are similar to unit tests but test the interaction between different modules or components. These tests should be written to validate the expected behavior of the system as a whole.
 
-* Use Rust's testing framework: Rust's testing framework provides a set of macros and functions for writing and running tests. The `#[cfg(test)]` attribute is used to indicate that a Rust module contains tests.
+* Use Rust's testing framework: Rust's testing framework provides a set of macros and functions for writing and running tests. The `#[cfg(test)]` attribute indicates that a Rust module contains tests.
 
 * Run the tests: Integration tests in Rust can be run using the `cargo test` command. This command compiles and runs all the tests in the project, including the integration tests.
 

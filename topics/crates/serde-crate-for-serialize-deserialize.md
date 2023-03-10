@@ -1,4 +1,4 @@
-# Serde crate for serialization and deserialization
+# Serde crate for serialize/deserialize
 
 Link: <https://crates.io/crates/serde>
 

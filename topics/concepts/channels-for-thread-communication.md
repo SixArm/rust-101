@@ -2,30 +2,17 @@
 
 Rust channels are a way to facilitate communication between threads in Rust. They allow threads to send messages to each other in a synchronized and safe manner, without the need for explicit locking or other synchronization primitives.
 
-In Rust, channels are created using the std::sync::mpsc module, which stands for "multiple producer, single consumer." This means that multiple threads can send messages into a channel, but there will only be one thread receiving those messages.
+In Rust, channels are created using the `std::sync::mpsc` module, which stands for "multiple producer, single consumer." This means that multiple threads can send messages into a channel, but there will only be one thread receiving those messages.
 
-To create a channel, you first need to import the module:
+To create a channel, you first need to import the module, then you can send messages and receive messages.
 
 ```rust
 use std::sync::mpsc;
-```
-
-Then, you can create a channel by calling the mpsc::channel function:
-
-```rust
-let (sender, receiver) = mpsc::channel();
-```
-
-This creates a channel where sender can be used to send messages, and receiver can be used to receive messages. You can then use the send method on the sender to send a message:
-
-```rust
-sender.send("Hello, world!").unwrap();
-```
-
-And you can use the `recv` method on the receiver to receive a message:
-
-```rust
-let message = receiver.recv().unwrap();
+fn main() {
+    let (sender, receiver) = mpsc::channel(); // create a channel
+    sender.send("Hello, world!").unwrap(); // send a message
+    let message = receiver.recv().unwrap(); // receive a message
+}
 ```
 
 If there are no messages in the channel, the `recv` method will block until a message is available. Alternatively, you can use the `try_recv` method to receive a message without blocking:

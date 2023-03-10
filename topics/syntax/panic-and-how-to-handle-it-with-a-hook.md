@@ -6,7 +6,7 @@ By default, Rust will print an error message and terminate the program when a pa
 
 You can define a `panic` hook by calling the `std::panic::set_hook` function and passing a closure that takes a `PanicInfo` struct as an argument. This struct contains information about the panic, such as the file and line where it occurred and the message associated with the panic.
 
-Here is an example of a simple panic hook that logs the panic message and terminates the program:
+Here is an example of a panic hook that logs the message then terminates the program:
 
 ```rust
 use std::panic;
@@ -27,4 +27,4 @@ fn main() {
 
 This sets a `panic` hook that logs the `panic` message to the standard error stream using the `eprintln` macro. When the program encounters a `panic!` macro, it will trigger the panic hook and log the error message before terminating the program.
 
-In general, it is best to avoid panics when possible and handle errors gracefully using Rust's `Result` type. However, in some cases, panics may be the appropriate way to handle errors that cannot be recovered from.
+In general, avoid panics when possible and handle errors gracefully using Rust's `Result` type. However, in some cases, panics may be the appropriate way to handle errors.

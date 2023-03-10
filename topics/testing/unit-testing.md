@@ -6,7 +6,7 @@ Rust provides a built-in testing framework for unit testing called `cargo test`.
 
 * Write the unit tests: Unit tests in Rust are typically placed in the same file as the code they are testing. These tests should be written to validate the expected behavior of individual functions or methods.
 
-* Use Rust's testing framework: Rust's testing framework provides a set of macros and functions for writing and running tests. The `#[cfg(test)]` attribute is used to indicate that a Rust module contains tests.
+* Use Rust's testing framework: Rust's testing framework provides a set of macros and functions for writing and running tests. The `#[cfg(test)]` attribute indicates that a Rust module contains tests.
 
 * Write test assertions: Rust's testing framework provides a set of assertions that can be used to validate the output of functions or methods being tested. These assertions can be used to check that a value is equal to an expected value, that a value is greater than or less than an expected value, and other conditions.
 

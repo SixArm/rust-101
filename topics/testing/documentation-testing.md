@@ -6,7 +6,7 @@ Here are the steps involved in using Rust doc tests:
 
 * Write the doc tests: Rust doc tests are written as code examples in the documentation of a Rust function or module. The code examples should demonstrate the expected behavior of the function or module.
 
-* Use Rust's testing framework: Rust's testing framework provides a set of macros and functions for writing and running tests. The `#[cfg(test)]` attribute is used to indicate that a Rust module contains tests.
+* Use Rust's testing framework: Rust's testing framework provides a set of macros and functions for writing and running tests. The `#[cfg(test)]` attribute indicates that a Rust module contains tests.
 
 * Include the doc tests in the documentation: Rust's documentation system will automatically recognize and run the doc tests included in the documentation of a function or module.
 

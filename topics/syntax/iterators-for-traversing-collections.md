@@ -1,16 +1,16 @@
 # Iterators for traversing collections
 
-In Rust, iterators are a powerful abstraction for traversing collections of data, such as arrays, vectors, and other sequences. Iterators provide a unified interface for accessing the elements of a collection, and can be used with many of Rust's built-in language features, such as loops and closures.
+In Rust, iterators are abstractions for traversing collections of data, such as arrays, vectors, and other sequences. Iterators access the elements of a collection, and can be used with many of Rust's built-in language features, such as loops and closures.
 
-Iterators in Rust are defined by the `Iterator` trait, which provides a set of methods for traversing and manipulating a sequence of values. Some of the most commonly used methods on iterators include:
+Iterators in Rust are defined by the `Iterator` trait, which provides methods for traversing and manipulating a sequence of elements. Some common methods on iterators include:
 
-* `next()`: Returns the next element of the iterator, or None if there are no more elements.
+* `next()`: Returns the next iterator element, or None if there are no more.
 
 * `map()`: Transforms each element of the iterator by applying a closure to it.
 
 * `filter()`: Returns a new iterator that includes only the elements that match a given predicate.
 
-* `fold()`: Reduces the elements of the iterator into a single value, by repeatedly applying a given function.
+* `fold()`: Reduces the iterator elements into a single value, by repeatedly applying a given function.
 
 Here's an example of using an iterator to traverse a vector and sum up its elements:
 

@@ -1,13 +1,6 @@
-# Access a SQLite database 
+# Access a database with rusqlite
 
-Rust example code to access a SQLite database.
-
-First, add the rusqlite crate to your project's dependencies in the Cargo.toml file:
-
-```rust
-[dependencies]
-rusqlite = "*"
-```
+Rust example code to access a SQLite database, by using the `rusqlite` crate.
 
 Connect to a SQLite database and execute SQL queries like this:
 
@@ -20,9 +13,9 @@ fn main() -> Result<()> {
     // Create a table
     conn.execute(
         "CREATE TABLE IF NOT EXISTS people (
-                  id              INTEGER PRIMARY KEY,
-                  name            TEXT NOT NULL,
-                  age             INTEGER NOT NULL
+                  id    INTEGER PRIMARY KEY,
+                  name  TEXT NOT NULL,
+                  age   INTEGER NOT NULL
                   )",
         [],
     )?;

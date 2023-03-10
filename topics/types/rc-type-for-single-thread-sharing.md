@@ -20,6 +20,6 @@ fn main() {
 }
 ```
 
-Here, an `Rc` is used to share ownership of a vector between multiple references. The `Rc::new()` function is used to create a new `Rc` that points to a vector of [1, 2, 3]. The `clone()` method is used to create two new `Rc`s that point to the same vector, and the reference count is incremented. The `println!()` macro is used to print the values of each reference to the console.
+Here, an `Rc` shares ownership of a vector between multiple references. The `Rc::new()` function creates a new `Rc` that points to a vector of [1, 2, 3]. The `clone()` method creates two new `Rc`s that point to the same vector, and the reference count is incremented. The `println!()` macro prints the values of each reference to the console.
 
 `Rc` is a useful tool for scenarios where shared ownership of a value is needed in a single-threaded environment. By using reference counting to manage the lifetime of the value, `Rc` ensures that the value is not dropped until all references to it have been dropped.

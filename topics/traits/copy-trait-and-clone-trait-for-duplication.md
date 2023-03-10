@@ -1,6 +1,6 @@
 # Copy trait and Clone trait for duplication
 
-In Rust, the Copy trait is used to control how values are copied, while the Clone trait is used to control how values are cloned.
+In Rust, the Copy trait controls how values are copied, while the Clone trait controls how values are cloned.
 
 The `Copy` trait is used for types that can be safely copied bit-by-bit, without any special consideration for ownership or memory management. When a value with the `Copy` trait is assigned to a new variable or passed to a function, a bitwise copy of the original value is made. This means that the original value remains unchanged, and any changes made to the copied value do not affect the original.
 

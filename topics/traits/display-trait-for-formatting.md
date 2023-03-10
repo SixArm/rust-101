@@ -1,10 +1,10 @@
 # Display trait for formatting
 
-In Rust, the `Display` trait is a built-in trait that allows developers to format a value as a string for display purposes. It is used to provide a human-readable representation of a type.
+In Rust, the `Display` trait is a built-in trait that allows developers to format a value as a string for display purposes. It provides a human-readable representation of a type.
 
-When a type implements the `Display` trait, it can be formatted as a string using the `format!` macro or the `println!` macro with the `{}` format specifier. This will use the `Display` implementation to convert the value into a string that can be displayed to the user.
+When a type implements the `Display` trait, it can be formatted as a string using the `format!` macro or the `println!` macro with the `{}` format specifier. This will use the `Display` implementation to convert the value into a string that can be displayed.
 
-To implement the `Display` trait for a custom type, developers need to define a `fmt` method on the type that takes a formatter object and formats the type's fields into a string. The formatter object implements the `fmt::Write` trait, which provides methods for writing to a string buffer.
+To implement the `Display` trait for a custom type, we define a `fmt` method on the type that takes a formatter object. The formatter object implements the `fmt::Write` trait, which provides methods for writing to a string buffer.
 
 For example, let's consider a simple Point struct:
 
@@ -29,13 +29,7 @@ With this implementation, we can use the `format!` macro to format a Point value
 
 ```rust
 let p = Point { x: 10, y: 20 };
-let s = format!("Point: {}", p);
+let s = format!("Point: {}", p); // The result is "Point: (10, 20)"
 ```
 
-This will output:
-
-```text
-Point: (10, 20)
-```
-
-In summary, the `Display` trait in Rust is a built-in trait that allows developers to format a value as a string for display purposes. It is used to provide a human-readable representation of a type and can be implemented for custom types by defining a `fmt` method that takes a formatter object and formats the type's fields into a string.
+In summary, the `Display` trait in Rust is a built-in trait that allows developers to format a value as a string for display purposes.

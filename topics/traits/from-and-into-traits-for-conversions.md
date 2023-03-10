@@ -1,4 +1,4 @@
-# From trait and Into trait for conversions
+# From and Into traits for conversions
 
 In Rust, the `From` trait and `Into` trait are used to convert values between different types. The `From` trait allows developers to define how a type can be constructed from another type, and the `Into` trait allows developers to define how a type can be converted into another type.
 

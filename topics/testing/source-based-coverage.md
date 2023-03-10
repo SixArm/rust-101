@@ -8,7 +8,7 @@ The process of generating source-based coverage typically involves the following
 
 * Test Execution: The test suite is run against the instrumented code.
 
-* Coverage Report Generation: The data collected during the test run is used to generate a report that shows which lines of code were executed and which were not.
+* Coverage Report Generation: The data collected during the test run generates a report that shows which lines of code were executed and which were not.
 
 The resulting coverage report provides developers with insights into the effectiveness of their tests and helps identify areas of the code that are not being sufficiently exercised by the test suite.
 

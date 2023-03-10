@@ -13,7 +13,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [What makes Rust a good programming language?](topics/starters/what-makes-rust-a-good-programming-language.md)
 
-* [How does Rust use programming language theory?](topics/starters/how-does-rust-use-programming-language-theory.md)
+* [Does Rust use programming language theory?](topics/starters/does-rust-use-programming-language-theory.md)
   
 * [What is the Rust ecosystem?](topics/starters/what-is-the-rust-ecosystem.md)
 
@@ -26,7 +26,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [What are good ways to learn Rust?](topics/starters/what-are-good-ways-to-learn-rust.md)
 
-* [What are good open source projects for learning Rust?](topics/starters/what-are-good-open-source-projects-for-learning-rust.md)
+* [What are good projects to learn Rust?](topics/starters/what-are-good-projects-to-learn-rust.md)
   
 
 ### Caveats
@@ -45,7 +45,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Borrow checker](topics/concepts/borrow-checker.md)
   
-* [Channels for communication between threads](topics/concepts/channels-for-communication-between-threads.md)
+* [Channels for thread communication](topics/concepts/channels-for-thread-communication-threads.md)
 
 * [Concurrency and parallelism](topics/concepts/concurrency-and-parallelism.md)
 
@@ -83,13 +83,13 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 ### Specialized uses
 
-* [Rust for artificial intelligence and machine learning](topics/uses/rust-for-artificial-intelligence-and-machine-learning.md)
+* [Rust for artificial intelligence / machine learning](topics/uses/rust-for-artificial-intelligence-and-machine-learning.md)
   
 * [Rust for embedded devices](topics/uses/rust-for-embedded-devices.md)
 
 * [Rust for game development](topics/uses/rust-for-game-development.md)
 
-* [Rust for graphical user interfaces (GUIs)](topics/users/rust-for-graphical-user-interfaces-guis.md)
+* [Rust for graphical user interfaces (GUIs)](topics/uses/rust-for-graphical-user-interfaces-guis.md)
 
 * [Rust for Linux drivers](topics/uses/rust-for-linux-drivers.md)
 
@@ -107,9 +107,9 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Box type for a smart pointer](topics/types/box-smart-pointer.md)
 
-* [Rc (Reference Counted) type for single-thread sharing](topics/types/rc-reference-counted-type-for-single-thread-sharing.md)
+* [Rc type for single-thread sharing](topics/types/rc-type-for-single-thread-sharing.md)
 
-* [Arc (Atomically Reference Counted) type for multi-thread sharing](topics/types/arc-atomically-reference-counted-type-for-multi-thread-sharing.md)
+* [Arc type for multi-thread sharing](topics/types/arc-type-for-multi-thread-sharing.md)
 
 
 ### Traits we use often
@@ -122,26 +122,26 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
   
 * [dyn trait for dynamic dispatch](topics/traits/dyn-trait-for-dynamic-dispatch.md)
 
-* [Eq, PartialEq, Ord, PartialOrd, Hash traits for comparisons](topics/traits/eq-partialeq-ord-partialord-hash-traits-for-comparisons.md)
+* [Eq, PartialEq, Ord, PartialOrd, Hash traits](topics/traits/eq-partialeq-ord-partialord-hash-traits.md)
   
 * [From trait and Into trait for conversions](topics/traits/from-trait-and-into-trait-for-conversions.md)
 
-* [Send trait and Sync trait for multithreading](topics/traits/send-trait-and-sync-trait-for-multithreading.md)
+* [Send and Sync traits for multithreading](topics/traits/send-and-syncs-trait-for-multithreading.md)
 
 
 ### Keywords we use often
 
-* [async/await keywords for asynchronous code](topics/keywords/async-await-keywords-for-asynchronous-code.md)
+* [async/await keywords for asynchronicity](topics/keywords/async-await-keywords-for-asynchronicity.md)
 
 * [enum keyword for enumerations](topics/keywords/enum-keyword-for-enumerations.md)
 
-* [match keyword and match arms for control flow](topics/keywords/match-keyword-and-match-arms-for-control-flow.md)
+* [match keyword for control flow](topics/keywords/match-keyword-for-control-flow.md)
 
-* [mod keyword for modules and namespaces](topics/keywords/mod-keyword-for-modules-and-namespaces.md)
+* [mod keyword for module namespaces](topics/keywords/mod-keyword-for-module-namespaces.md)
 
 * [struct keyword for custom data types](topics/keywords/struct-keyword-for-custom-data-types.md)
 
-* [trait keyword for generic code and polymorphism](topics/keywords/trait-keyword-for-generic-code-and-polymorphism.md)
+* [trait keyword for polymorphism](topics/keywords/trait-keyword-for-polymorphism.md)
 
 
 ## Coding
@@ -172,7 +172,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Memory ownership and borrowing](topics/concepts/memory-ownership-and-borrowing.md)
 
-* [Mutability and immutability](topics/mutability-and-immutability.md)
+* [Mutability and immutability](topics/concepts/mutability-and-immutability.md)
 
 
 ### Testing
@@ -192,17 +192,17 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 ### Examples
 
-* [Access a SQLite database with rusqlite crate](topics/examples/acccess-a-sqlite-database-with-rusqlite-crate.md)
+* [Access a database with rusqlite](topics/examples/acccess-a-database-with-rusqlite.md)
   
-* [Make HTTP GET request with reqwest crate](topics/examples/make-http-get-request-with-reqwest-crate.md)
+* [Make HTTP GET request with reqwest](topics/examples/make-http-get-request-with-reqwest.md)
 
-* [Parse JSON data with Serde crate](topics/examples/parse-json-data-with-serde-crate.md)
+* [Parse JSON data with Serde](topics/examples/parse-json-data-with-serde-crate.md)
 
-* [Read a CSV file with CSV crate](topics/examples/read-a-csv-file-with-csv-crate.md)
+* [Read a data file with CSV](topics/examples/read-a-data-file-with-csv-crate.md)
 
-* [Run a terminal application with cursive crate](topics/examples/run-a-terminal-application-with-cursive-crate.md)
+* [Run a terminal program with cursive](topics/examples/run-a-terminal-program-with-cursive.md)
 
-* [Search a text file with regex crate](topics/examples/search-a-text-file-by-with-regex-crate.md)
+* [Search a text file with regex](topics/examples/search-a-text-file-with-regex.md)
 
 
 ### Software patterns, idioms, and paradigms that we use
@@ -231,7 +231,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [rustup command-line tool](topics/tooling/rustup-command-line-tool.md)
 
-* [Cargo package manager and crate packages](topics/tooling/cargo-package-manager-and-crate-packages.md)
+* [Cargo package manager and crates](topics/tooling/cargo-package-manager-and-crate-packages.md)
 
 * [Clippy linting](topics/tooling/clippy-linting.md)
 
@@ -260,7 +260,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Assertables crate for assert macro tests](topics/crates/assertables-crate-for-assert-macro-tests.md)
 
-* [itertools crate for extra iterator capabilties](topics/crates/itertools-crate-for-extra-iterator-capabilties.md)
+* [itertools crate for iterator extras](topics/crates/itertools-crate-for-iterator-extras.md)
 
 * [log crate for logging messages](topics/crates/log-crate-for-logging-messages.md)
 
@@ -268,16 +268,16 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
  
 * [regex crate for regular expressions](topics/crates/regex-crate-for-regular-expressions.md)
   
-* [reqwest crate for HTTP requests](topics/reqwest-crate-for-http-requests.md)
+* [reqwest crate for HTTP requests](topics/crates/reqwest-crate-for-http-requests.md)
 
-* [Serde crate for serialization and deserialization](topics/crates/serde-crate-for-serialization-and-deserialization.md)
+* [Serde crate for serialize/deserialize](topics/crates/serde-crate-for-serialize-deserialize.md)
 
 
-### Crates we like for text-based user interfaces
+### Crates we like for text-based interfaces
 
-* [CLAP crate for command line argument parsing](topics/crates/clap-crate-for-command-line-argument-parsing.md)
+* [CLAP crate for command line arg parsing](topics/crates/clap-crate-for-command-line-arg-parsing.md)
 
-* [Cursive crate for text-based user interfaces](topics/crates/cursive-crate-for-text-based-user-interfaces.md)
+* [Cursive crate for text-based interfaces](topics/crates/cursive-crate-for-text-based-user-interfaces.md)
   
 * [Textwrap crate for text wrapping](topics/crates/textwra-crate-for-text-wrapping.md)
 

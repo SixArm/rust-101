@@ -45,9 +45,9 @@ fn main() {
 }
 ```
 
-In this example, the `thread::spawn()` function creates a new thread, and the `move` keyword is used to move the variable `i` into the closure. The closure prints a message indicating which thread it is running on.
+In this example, the `thread::spawn()` function creates a new thread, and the `move` keyword moves the variable `i` into the closure. The closure prints a message indicating which thread it is running on.
 
-The `handles` vector is used to store the handles of all the threads that were created. Finally, the `join()` method is called on each thread handle to wait for the thread to finish before exiting the program.
+The `handles` vector stores the handles of all the threads that were created. Finally, the `join()` method is called on each thread handle to wait for the thread to finish before exiting the program.
 
 This is just a basic example, but Rust's concurrency primitives can be combined in various ways to build more complex and efficient concurrent programs.
 
@@ -70,7 +70,7 @@ fn main() {
 }
 ```
 
-In this example, the `par_iter()` method is used to create a parallel iterator over a vector of numbers. The `sum()` method is then called on the iterator to calculate the sum of all the numbers in the vector.
+In this example, the `par_iter()` method creates a parallel iterator over a vector of numbers. The `sum()` method is then called on the iterator to calculate the sum of all the numbers in the vector.
 
 `rayon` automatically divides the work among multiple threads, using as many threads as there are processors or cores available on the system. The code is executed in parallel, with each thread processing a subset of the data.
 

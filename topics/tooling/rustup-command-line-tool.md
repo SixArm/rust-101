@@ -1,8 +1,8 @@
 # rustup command-line tool
 
-In Rust, `rustup` is a command-line tool that is used to manage the installation and configuration of Rust toolchains. A Rust toolchain is a set of tools and libraries that are used to compile and run Rust programs.
+In Rust, `rustup` is a command-line tool that manages the installation and configuration of Rust toolchains. A Rust toolchain is a set of tools and libraries that are used to compile and run Rust programs.
 
-`rustup` is used to install and update Rust toolchains, including the Rust compiler and associated tools such as `cargo`. It also allows for the management of multiple toolchains and makes it easy to switch between them.
+`rustup` installs and updates Rust toolchains, including the Rust compiler and associated tools such as `cargo`. It also allows for the management of multiple toolchains and makes it easy to switch between them.
 
 Some of the commonly used rustup commands include:
 

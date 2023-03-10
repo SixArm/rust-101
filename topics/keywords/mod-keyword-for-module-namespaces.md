@@ -1,4 +1,4 @@
-# mod keyword for modules and namespaces
+# mod keyword for module namespaces
 
 In Rust, namespaces are a way to organize and group related items, such as functions, types, and constants, under a common name. Namespaces are implemented using modules, which are Rust's primary mechanism for organizing code into reusable components.
 
@@ -28,6 +28,9 @@ fn main() {
 ```
 
 In this example, we bring the `public_function` from `my_module` into the scope of main, allowing us to call it directly.
+
+
+## Hierarchical modules
 
 Rust also provides a hierarchical module system, where modules can be nested within other modules to create a hierarchy of namespaces:
 

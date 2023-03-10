@@ -17,22 +17,19 @@ let name = person.0;
 let age = person.1;
 ```
 
-This assigns the first element of the person tuple, which is the string "Alice", to the `name` variable, and the second element, which is the integer `30`, to the `age` variable.
-
 Tuples are often used to return multiple values from a function. For example, the `std::fs::metadata` function returns a `Result<std::fs::Metadata>` object, which contains information about a file or directory, such as its size and permissions. The `std::fs::metadata` function returns a tuple containing the `std::fs::Metadata` object and the `std::io::Result` object, which contains information about any errors that occurred:
 
 ```rust
 use std::fs;
 
 fn main() -> std::io::Result<()> {
-    let metadata = fs::metadata("file.txt")?;
-    let (size, permissions) = (metadata.len(), metadata.permissions());
-    println!("File size: {} bytes", size);
-    println!("Permissions: {:?}", permissions);
+    let metadata = fs::metadata("file.txt")?; // get metadata for the file
+    let (size, permissions) = (metadata.len(), metadata.permissions()); // extract to a tuple
+    println!("File size is {} bytes, and permisisons are {}", size, permissions);
     Ok(())
 }
 ```
 
-This calls the `std::fs::metadata` function to retrieve the metadata for the file `file.txt`. It then extracts the file size and permissions from the `std::fs::metadata` object using a tuple and prints them to the console.
+This calls the `std::fs::metadata` function, then extracts the file size and permissions, then prints them to the console.
 
 In summary, a tuple in Rust is an ordered collection of values with a fixed length. Tuples can contain values of different types and are represented using parentheses () with the values separated by commas.

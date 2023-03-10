@@ -1,6 +1,6 @@
-# Dependency injection (DI) to reduce coupling
+# Dependency injection (DI)
 
-Dependency injection (DI) is a design pattern that is used to reduce the coupling between different components of a software system. In Rust, DI can be implemented using various techniques, such as trait objects, closures, and macros.
+Dependency injection (DI) is a design pattern that reduces the coupling between different components of a software system. In Rust, DI can be implemented using various techniques, such as trait objects, closures, and macros.
 
 The basic idea behind DI is that instead of a component creating its dependencies directly, it receives them from an external source. This allows the component to be more flexible and easier to test, since its dependencies can be easily substituted with mock objects or other implementations.
 

@@ -17,6 +17,6 @@ fn main() {
 }
 ```
 
-Here, `x` is a pointer to a value of 5 that is stored on the heap. The `Box::new()` function allocates memory on the heap and returns a pointer to the allocated memory. The `println!()` macro is used to print the value of `x`.
+Here, `x` is a pointer to a value of 5 that is stored on the heap. The `Box::new()` function allocates memory on the heap and returns a pointer to the allocated memory. The `println!()` macro prints the value of `x`.
 
 Rust's ownership and borrowing system helps ensure that heap-allocated memory is used safely and efficiently. By enforcing strict rules around memory management, Rust makes it possible to write high-performance, memory-safe code without the need for garbage collection or other runtime memory management.

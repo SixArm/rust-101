@@ -1,6 +1,6 @@
-# Read a CSV file
+# Read a spreadsheet with csv
 
-Rust example code to read CSV file using the `csv` crate:
+Rust example code to read CSV file, by using the `csv` crate:
 
 ```rust
 use std::error::Error;

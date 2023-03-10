@@ -16,7 +16,7 @@ fn main() {
 }
 ```
 
-Here, `x` is an integer with a value of 5. The `&` operator is used to create a reference to `x` and assign it to `y`. The `println!()` macro is used to print the value of `y`.
+Here, `x` is an integer with a value of 5. The `&` operator creates a reference to `x` and assign it to `y`. The `println!()` macro prints the value of `y`.
 
 In this code, the lifetime of `x` begins when it is created and ends when it goes out of scope at the end of the `main()` function. The lifetime of `y` is the same as the lifetime of `x`, because it is a reference to the memory owned by `x`. The borrow checker ensures that `y` is returned before `x` goes out of scope.
 

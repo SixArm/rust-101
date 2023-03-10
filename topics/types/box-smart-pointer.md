@@ -2,7 +2,7 @@
 
 In Rust, a `Box` is a smart pointer that provides a way to allocate memory on the heap and move data into that memory. A `Box` is used when you need to allocate an object at runtime rather than at compile time, and want to ensure that the object is cleaned up automatically when it goes out of scope.
 
-The `Box` type is defined in the Rust standard library and is used to allocate memory on the heap for a value of a given type. When a value is wrapped in a `Box`, it is moved to the heap and the `Box` itself is stored on the stack. This allows you to allocate a large object on the heap without having to worry about stack size limitations.
+The `Box` type is defined in the Rust standard library and allocates memory on the heap for a value of a given type. When a value is wrapped in a `Box`, it is moved to the heap and the `Box` itself is stored on the stack. This allows you to allocate a large object on the heap without having to worry about stack size limitations.
 
 One of the main benefits of using `Box` is that it provides automatic memory management. When a `Box` goes out of scope, the memory it allocated is automatically deallocated. This eliminates the need to manually manage memory and helps prevent common memory-related bugs such as memory leaks and dangling pointers.
 

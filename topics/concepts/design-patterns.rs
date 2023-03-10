@@ -2,6 +2,9 @@
 
 Design patterns are reusable solutions to common programming problems. They are not unique to Rust, but Rust developers can use many of the same design patterns found in other languages. Here are some examples of design patterns and how they can be applied in Rust:
 
+
+## Iterator
+
 Iterator: The iterator pattern provides a way to iterate over a collection of objects. In Rust, this is built into the language with the Iterator trait. For example:
 
 ```rust
@@ -11,6 +14,8 @@ for number in numbers.iter() {
     println!("{}", number);
 }
 ```
+
+## Singleton
 
 Singleton: The singleton pattern ensures that only one instance of a particular object is ever created. In Rust, this can be implemented using a static variable or a lazy static variable. For example:
 
@@ -34,19 +39,20 @@ impl Singleton {
 }
 ```
 
-Builder: The builder pattern is used to create complex objects by breaking down the creation process into a series of simpler steps. In Rust, this can be implemented using the builder pattern. For example:
+
+## Builder
+
+Builder: The builder pattern creates complex objects by breaking down the creation process into a series of simpler steps. In Rust, this can be implemented using the builder pattern. For example:
 
 ```rust
 struct Person {
     name: String,
     age: u32,
-    address: String,
 }
 
 struct PersonBuilder {
     name: Option<String>,
     age: Option<u32>,
-    address: Option<String>,
 }
 
 impl PersonBuilder {
@@ -54,7 +60,6 @@ impl PersonBuilder {
         PersonBuilder {
             name: None,
             age: None,
-            address: None,
         }
     }
 
@@ -68,16 +73,10 @@ impl PersonBuilder {
         self
     }
 
-    fn address(mut self, address: String) -> Self {
-        self.address = Some(address);
-        self
-    }
-
     fn build(self) -> Person {
         Person {
             name: self.name.expect("Name not provided"),
             age: self.age.expect("Age not provided"),
-            address: self.address.expect("Address not provided"),
         }
     }
 }
@@ -85,9 +84,11 @@ impl PersonBuilder {
 let person = PersonBuilder::new()
     .name(String::from("John"))
     .age(30)
-    .address(String::from("123 Main St"))
     .build();
 ```
+
+
+## Observer
 
 Observer: The observer pattern allows one object to notify others of its state changes. In Rust, this can be implemented using Rust's channels or event emitters. For example:
 

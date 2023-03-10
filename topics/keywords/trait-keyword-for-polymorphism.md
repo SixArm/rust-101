@@ -1,4 +1,4 @@
-# Trait keyword for generic code and polymorphism
+# Trait keyword for polymorphism
 
 In Rust, a trait is a language construct that defines a set of methods that can be implemented by a type. Traits allow Rust to achieve polymorphism and code reuse without sacrificing performance or safety.
 

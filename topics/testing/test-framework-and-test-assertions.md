@@ -1,6 +1,6 @@
 # Test framework and test assertions
 
-Rust has a built-in testing framework that allows developers to write and run automated tests for their Rust code. The testing framework is designed to be simple and easy to use, and it supports a wide range of testing scenarios, including unit tests, integration tests, and benchmark tests.
+Rust has a built-in testing framework that allows developers to write and run automated tests for their Rust code. The testing framework is designed to be easy to use, and it supports a wide range of testing scenarios, including unit tests, integration tests, and benchmark tests.
 
 To write tests in Rust, developers create test functions that are annotated with the #[test] attribute. These functions can contain one or more test assertions that check whether a particular condition is true or false. If all assertions in a test function pass, the test is considered to have passed. If any assertion fails, the test is considered to have failed.
 
@@ -14,9 +14,9 @@ fn test_addition() {
 }
 ```
 
-In this example, the `test_addition` function tests whether the addition of two numbers results in the expected value. The `assert_eq!` macro is used to compare the result of the addition with the expected value of 4. If the addition results in anything other than 4, the assertion will fail, and the test will fail.
+In this example, the `test_addition` function tests whether the addition of two numbers results in the expected value. The `assert_eq!` macro compares the result of the addition with the expected value of 4. If the addition results in anything other than 4, the assertion will fail, and the test will fail.
 
-Rust's testing framework provides a range of useful macros for writing test assertions, including:
+The testing framework provides macros for writing test assertions, including:
 
 * `assert_eq!(a, b)` and `assert_ne!(a, b)`: Checks whether two values are equal or not equal, respectively.
 

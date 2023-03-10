@@ -1,4 +1,4 @@
-# Search a text file
+# Search a text file with regex
 
 Rust example code to search a text file by using the `regex` crate for regular expression pattern matching.
 

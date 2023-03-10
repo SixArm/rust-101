@@ -1,6 +1,6 @@
-# Parse JSON data
+# Parse JSON data with Serde
 
-Rust example code to parse a JSON string by using the `serde_json` crate.
+Rust example code to parse a JSON string, by using the `serde` crate and `serde_json` crate.
 
 ```rust
 use serde_json::{Result, Value};
@@ -34,4 +34,4 @@ fn main() {
 }
 ```
 
-This code defines a function `parse_json` that takes a JSON string and returns a `serde_json::Value` object. The `serde_json::from_str` function is used to parse the JSON string into a `Value` object. The main function demonstrates how to access the values in the parsed JSON by using the `as_*` methods on the `Value` object. In this example, we access the name, age, is_employee, and languages fields of the JSON object and print them to the console. Note that this code assumes that the JSON is well-formed and matches the expected schema.
+This code defines a function `parse_json` that takes a JSON string and returns a `serde_json::Value` object. The `serde_json::from_str` function parses the JSON string into a `Value` object. The main function demonstrates how to access the values in the parsed JSON by using the `as_*` methods on the `Value` object. In this example, we access the name, age, is_employee, and languages fields of the JSON object and print them to the console. Note that this code assumes that the JSON is well-formed and matches the expected schema.

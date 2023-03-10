@@ -1,4 +1,4 @@
-# Match keyword and match arms for control flow
+# Match keyword for control flow
 
 In Rust, the `match` keyword is a powerful control flow construct that allows a program to match a value against a set of patterns and execute code based on the match result. The `match` keyword and statement is similar to a `switch` keyword and statement in other languages, but `match` provides more powerful pattern matching capabilities.
 
@@ -15,21 +15,7 @@ match <value> {
 
 The `<value>` is the expression that is being matched against, and the `<pattern>` expressions are the patterns that are being matched. Each `<pattern>` is followed by a `=>` symbol, then a block of code that will be executed if the pattern matches the value.
 
-In Rust, a pattern can take many forms, including:
-
-* Literal values: e.g. `42`, `"hello"`
-
-* Variables: e.g. `x`, `y`
-
-* Wildcards: e.g. `_`
-
-* Ranges: e.g. `1..=5`
-
-* Enums: e.g. `Some(value)`
-
-* Structs: e.g. `Point { x, y }`
-
-* Tuples: e.g. `(x, y)`
+In Rust, a pattern can take many forms, including literal values (e.g. `42`, "hello"), variables (e.g. `x`, `y`), wldcards (e.g. `_`), ranges (e.g. `1..=5`), enums (e.g. `Some(value)`), structs (e.g. `Point { x, y }`), tuples (e.g. `(x, y)`), and more.
 
 The code in each match arm is executed if the pattern on the left-hand side of the `=>` operator matches the value being matched. If none of the patterns match, the `match` statement will panic at runtime.
 

@@ -1,6 +1,6 @@
 # Debug trait for debugging and printing
 
-In Rust, the `Debug` trait is a built-in trait that allows developers to print and debug Rust types. It is used to provide a basic representation of a type suitable for debugging purposes.
+In Rust, the `Debug` trait is a built-in trait that allows developers to print and debug Rust types. It provides a basic representation of a type suitable for debugging purposes.
 
 When a type implements the `Debug` trait, it can be printed using the println! macro with the `{:?}` format specifier. This will print a debug representation of the type, which is often more informative than the default string representation.
 
