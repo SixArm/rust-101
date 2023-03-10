@@ -177,7 +177,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [Procedural programming versus functional programming](topics/concepts/procedural-programming-versus-functional-programming.md)
 
 
-### Misc. Concepts
+### Rust concepts that are notably different from languages
 
 * [Borrow checker](topics/concepts/borrow-checker.md)
   
