@@ -237,8 +237,10 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Rustfmt for code formatting](topics/tooling/rustfmt-for-code-formatting.md)
 
+* [Rust mdBook for documentation](topics/tooling/rust-mdbook-for-documentation.md)
+
 * [Cross-compiling for multiple platforms](topics/tooling/cross-compiling-for-multiple-platforms.md)
-  
+
 
 ### Tooling concepts
 
