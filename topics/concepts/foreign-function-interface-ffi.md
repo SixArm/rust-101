@@ -10,7 +10,7 @@ extern "C" {
 }
 ```
 
-This declares a function called `some_function` that takes an `i32` and a pointer to an `i32` as arguments and returns an `i32`. The `"C"` string in the `extern` declaration specifies the calling convention, which tells the Rust compiler how to interact with the external function.
+This declares a function called `some_function` that takes an `i32` and a pointer to an `i32` as arguments and returns an `i32`. The "C" string in the `extern` declaration specifies the calling convention, which tells the Rust compiler how to interact with the external function.
 
 To call this function from Rust, you can use the `unsafe` keyword to tell the Rust compiler that the function call is unsafe and may have side effects:
 
@@ -31,7 +31,7 @@ pub extern "C" fn rust_function(arg: i32) -> i32 {
 }
 ```
 
-This declares a Rust function called rust_function that takes an `i32` as an argument and returns an `i32`, and specifies the `"C"` calling convention using the `extern "C"` syntax. The `#[no_mangle]` attribute tells the Rust compiler not to mangle the function name.
+This declares a Rust function called rust_function that takes an `i32` as an argument and returns an `i32`, and specifies the "C" calling convention using the `extern "C"` syntax. The `#[no_mangle]` attribute tells the Rust compiler not to mangle the function name.
 
 You can then use this Rust function from C code:
 

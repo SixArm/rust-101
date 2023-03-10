@@ -1,6 +1,6 @@
 # Parse JSON data
 
-Rust example code that to parse a JSON string by using the `serde_json` crate.
+Rust example code to parse a JSON string by using the `serde_json` crate.
 
 ```rust
 use serde_json::{Result, Value};

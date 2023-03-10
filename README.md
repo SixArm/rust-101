@@ -57,8 +57,6 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Monomorphisation](topics/concepts/monomorphisation-of-generic-code.md)
 
-* [Rustfmt for code formatting]()
-
 * [Unsafe code](topics/concepts/unsafe-code.md)
 
 * [WebAssembly (WASM)](topics/concepts/webassembly-wasm.md)
@@ -202,10 +200,12 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Read a CSV file with CSV crate](topics/examples/read-a-csv-file-with-csv-crate.md)
 
+* [Run a terminal application with cursive crate](topics/examples/run-a-terminal-application-with-cursive-crate.md)
+
 * [Search a text file with regex crate](topics/examples/search-a-text-file-by-with-regex-crate.md)
 
 
-### Software patterns, idioms, paradigms
+### Software patterns, idioms, and paradigms that we use
 
 * [Design patterns](topics/concepts/design-patterns.rs)
 
