@@ -33,8 +33,8 @@ fn main() -> Result<()> {
 
 In this example, we first import the `rusqlite` crate and the `Result` type from the standard library, which we'll use to handle errors. We then create a new database connection by calling `Connection::open("example.db")?`, which creates a new SQLite database file called `example.db` in the current directory.
 
-Next, we execute a SQL statement using the `execute()` method of the connection. This statement creates a new table called `person` with three columns: `id`, `name`, and `age`. The `id` column is the primary key for the table, and the `name` and `age` columns are both required and cannot be null.
+Next, we execute a SQL statement using the `execute()` method. This creates a new table called `person` with three columns: `id`, `name`, and `age`. The `id` column is the primary key for the table, and the `name` and `age` columns are both required.
 
-Finally, we insert a new row into the person table using the `execute()` method again. This statement inserts a new row with the name "Alice" and the age `30`.
+Finally, we insert a new row into the person table using the `execute()` method again. This inserts a new row with the name "Alice" and the age `30`.
 
 Rusqlite provides many other methods for querying and modifying data in SQLite databases, including prepared statements, transactions, and more. Check out the Rusqlite documentation for more information on how to use this powerful library.
