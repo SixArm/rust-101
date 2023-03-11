@@ -16,7 +16,16 @@ fn test_addition() {
 
 In this example, the `test_addition` function tests whether the addition of two numbers results in the expected value. The `assert_eq!` macro compares the result of the addition with the expected value of 4. If the addition results in anything other than 4, the assertion will fail, and the test will fail.
 
-The testing framework provides macros for writing test assertions, including:
+To run tests in Rust, developers use the `cargo test` command, which runs all tests in a Rust project and reports the results. The cargo test command can also be used to run specific tests or groups of tests, and it provides a range of options for controlling the behavior of the testing framework.
+
+In addition to unit tests, Rust's testing framework also supports integration tests, which test the interaction between different modules or components of a Rust application, and benchmark tests, which measure the performance of Rust code under different conditions.
+
+Overall, Rust's built-in testing framework provides a convenient and efficient way to write and run automated tests for Rust code, making it easy to ensure that Rust applications are correct, reliable, and performant.
+
+
+## Test assertions
+
+The Rust testing framework provides macros for writing test assertions, including:
 
 * `assert_eq!(a, b)` and `assert_ne!(a, b)`: Checks whether two values are equal or not equal, respectively.
 
@@ -26,8 +35,13 @@ The testing framework provides macros for writing test assertions, including:
 
 * `assert!(condition, message, value)`: Checks whether a condition is true, and includes a custom error message that includes the value of a variable if the condition is false.
 
-In addition to unit tests, Rust's testing framework also supports integration tests, which test the interaction between different modules or components of a Rust application, and benchmark tests, which measure the performance of Rust code under different conditions.
+The Rust Assertables crate provides more macros for writing more kinds of test assertions, including:
 
-To run tests in Rust, developers use the `cargo test` command, which runs all tests in a Rust project and reports the results. The cargo test command can also be used to run specific tests or groups of tests, and it provides a range of options for controlling the behavior of the testing framework.
+* `assert_gt!(a, b)` and `assert_lt!(a, b)`: Checks whether the first value is greater than the second value, or less than it, respectively.
 
-Overall, Rust's built-in testing framework provides a convenient and efficient way to write and run automated tests for Rust code, making it easy to ensure that Rust applications are correct, reliable, and performant.
+* `assert_starts_with!(string, substring)`: Checks whether the string starts with the substring.
+
+* `assert_contains(array, element)`: Checks whether the array contains the element.
+
+* `assert_is_match(regex, string)`: Checks whether the regular expression regex matches the string.
+

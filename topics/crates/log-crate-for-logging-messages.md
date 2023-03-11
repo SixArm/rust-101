@@ -1,5 +1,7 @@
 # log crate for logging messages
 
+<https://crates.io/crates/log>
+
 The Rust log crate provides a logging framework for Rust programs. The log crate provides a simple interface for logging messages at different levels of severity, such as debug, info, warn, and error.
 
 To use the log crate, you need to first define a logger implementation. This implementation defines how the log messages are recorded and where they are sent. There are many different logger implementations available in the Rust ecosystem, such as the simple_logger crate, env_logger crate, and fern crate.

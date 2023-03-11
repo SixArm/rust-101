@@ -11,6 +11,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [What is a Rust "hello world" program?](topics/starters/what-is-a-rust-hello-world-program.md)
 
+* [What is a Rust "FizzBuzz" program?](topics/starters/what-is-a-rust-fizzbuzz-program.md)
+
 * [What makes Rust a good programming language?](topics/starters/what-makes-rust-a-good-programming-language.md)
 
 * [Does Rust use programming language theory?](topics/starters/does-rust-use-programming-language-theory.md)
@@ -205,26 +207,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [Search a text file with regex](topics/examples/search-a-text-file-with-regex.md)
 
 
-### Software patterns, idioms, and paradigms that we use
-
-* [Design patterns](topics/concepts/design-patterns.rs)
-
-* [Dependency injection (DI)](topics/concepts/dependency-injection-di.md)
-
-* [Domain-driven design (DDD)](topics/concepts/domain-driven-design-ddd.md)
-  
-* [Model-view-controller (MVC)](topics/concepts/model-view-controller-mvc.md)
-
-* [Object-oriented programming versus functional programming](topics/concepts/object-oriented-programming-versus-functional-programming.md)
-
-* [Procedural programming versus functional programming](topics/concepts/procedural-programming-versus-functional-programming.md)
-
-* [Resource Acquisition Is Initialization (RAII)](topics/concepts/resource-acquisition-is-initialization.md)
-
-* [SOLID principles for software design](topics/concepts/solid-principles-for-software-design.md)
-
-
-## Tooling
+## Tooling & tactics
 
 
 ### Tooling we use often
@@ -241,6 +224,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Cross-compiling for multiple platforms](topics/tooling/cross-compiling-for-multiple-platforms.md)
 
+* [Rhai script](topics/tooling/rhai-script.md)
+
 
 ### Tooling concepts
 
@@ -252,6 +237,27 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Static analysis for error detection](topics/tooling/static-analysis-for-error-detection.md)
 
+
+### Tactics, patterns, idioms, and paradigms
+
+* [Design patterns](topics/concepts/design-patterns.rs)
+
+* [Dependency injection (DI)](topics/concepts/dependency-injection-di.md)
+
+* [Domain-driven design (DDD)](topics/concepts/domain-driven-design-ddd.md)
+  
+* [Model-view-controller (MVC)](topics/concepts/model-view-controller-mvc.md)
+
+* [Object-oriented versus functional](topics/concepts/object-oriented-programming-versus-functional-programming.md)
+
+* [Procedural versus functional](topics/concepts/procedural-programming-versus-functional-programming.md)
+
+* [Resource Acquisition Is Initialization (RAII)](topics/concepts/resource-acquisition-is-initialization.md)
+
+* [SOLID principles for software design](topics/concepts/solid-principles-for-software-design.md)
+
+* [The Law of Demeter](topics/concepts/the-law-of-demeter.md)
+  
 
 ## Crates
 
@@ -277,14 +283,14 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [CLAP crate for command line arg parsing](topics/crates/clap-crate-for-command-line-arg-parsing.md)
 
-* [Cursive crate for text-based interfaces](topics/crates/cursive-crate-for-text-based-user-interfaces.md)
+* [Cursive crate for text-based interfaces](topics/crates/cursive-crate-for-text-based-interfaces.md)
   
-* [Textwrap crate for text wrapping](topics/crates/textwra-crate-for-text-wrapping.md)
+* [Textwrap crate for text wrapping](topics/crates/textwrap-crate-for-text-wrapping.md)
 
 
 ### Crates we like for cargo workflows
 
-* [cargo-cache crate for caching dependencies](topics/crates/cargo-cache-crate-for-caching-dependencies.md)
+* [cargo-cache crate for caching builds](topics/crates/cargo-cache-crate-for-caching-builds.md)
 
 * [cargo-dist crate for distribution archives](topics/crates/cargo-dist-crate-for-distribution-archives.md)
 
@@ -304,7 +310,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 ### Crates we like for data analysis
 
-* [arrow-csv crate for parsing CSV data to Arrow data](topics/crates/arrow-csv-crate-for-parsing-csv-data-to-arrow-data.md)
+* [arrow-csv crate for loading CSV into Arrow](topics/crates/arrow-csv-crate-for-parsing-csv-data-to-arrow-data.md)
 
 * [CSV crate for comma-separated values](topics/crates/csv-crate-for-comma-separated-values.md)
 

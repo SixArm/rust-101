@@ -1,6 +1,6 @@
 # sqlx crate for SQL databases
 
-Link: <https://crates.io/crates/sqlx>
+<https://crates.io/crates/sqlx>
 
 The Rust sqlx crate is a third-party library that provides a safe and convenient way to interact with databases in Rust. It supports a wide range of database backends, including PostgreSQL, MySQL, SQLite, and Microsoft SQL Server, and provides a high-level API that makes it easy to execute SQL queries and manage database transactions.
 

@@ -1,6 +1,6 @@
 # CLAP crate for command line arg parsing
 
-Link: <https://crates.io/crates/clap>
+<https://crates.io/crates/clap>
 
 The Rust CLAP crate is a popular library for parsing command-line arguments in Rust. It provides a flexible and intuitive way to define command-line interfaces (CLIs) for Rust programs, with support for a wide range of features and options.
 

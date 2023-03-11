@@ -1,5 +1,7 @@
 # regex crate for regular expressions
 
+<https://crates.io/crates/regex>
+
 The Rust regex crate is a regular expression library for the Rust programming language. It provides a fast and efficient way to search, match, and manipulate text using regular expressions.
 
 The regex crate is based on the popular PCRE library, which is widely used in many programming languages for regular expression support. However, the Rust regex crate is designed specifically for Rust and provides a native Rust API that is both safe and easy to use.

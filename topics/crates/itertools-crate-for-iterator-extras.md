@@ -1,7 +1,7 @@
 
 # itertools crate for iterator extras
 
-Link: <https://crates.io/crates/itertools>
+<https://crates.io/crates/itertools>
 
 The Rust itertools crate is a third-party library that provides a powerful set of tools for working with iterators in Rust. It offers a wide range of functions and macros for manipulating and combining iterators, making it easier and more efficient to work with collections of data in Rust.
 

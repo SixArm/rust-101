@@ -1,5 +1,7 @@
 # Polars crate for data analysis
 
+<https://crates.io/crates/polars>
+
 The Rust Polars crate is a data manipulation and analysis library for the Rust programming language. It is designed to provide a fast, efficient, and easy-to-use interface for working with large datasets.
 
 At its core, Rust Polars is built on top of the Apache Arrow memory format, which provides a standard way of representing data in memory. This allows Rust Polars to take advantage of the performance benefits of Arrow, such as zero-copy data access and efficient memory utilization.

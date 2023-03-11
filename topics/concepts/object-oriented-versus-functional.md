@@ -1,4 +1,4 @@
-# Object-oriented programming versus functional programming
+# Object-oriented versus functional
 
 Rust is a multi-paradigm programming language that supports both object-oriented and functional programming styles. Rust's object-oriented programming (OOP) is based on the concept of structs and traits, while its functional programming (FP) is based on the use of closures and higher-order functions.
 

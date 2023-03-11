@@ -1,6 +1,8 @@
-# cargo-cache crate for caching dependencies
+# cargo-cache crate for caching builds
 
-Rust `cargo-cache` is a crate that provides a command-line interface (CLI) for managing the cache directory used by the Cargo package manager. Cargo is the default package manager for Rust and builds, tests, and packages Rust code.
+<https://crates.io/crates/cargo-cache>
+
+The Rust cargo-cache crate provides a command-line interface (CLI) for managing the cache directory used by the Cargo package manager. Cargo is the default package manager for Rust and builds, tests, and packages Rust code.
 
 When you use Cargo to build a Rust project, it downloads and caches dependencies, build artifacts, and other files related to the build process in a directory called "cargo-cache". Over time, this directory can become quite large, taking up valuable disk space on your system.
 

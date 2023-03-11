@@ -1,6 +1,6 @@
 # Serde crate for serialize/deserialize
 
-Link: <https://crates.io/crates/serde>
+<https://crates.io/crates/serde>
 
 The Rust Serde crate is a widely used library for serialization and deserialization of Rust data structures to and from various data formats, such as JSON, TOML, YAML, and many others.
 

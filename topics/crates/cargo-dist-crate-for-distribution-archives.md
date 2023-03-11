@@ -1,6 +1,8 @@
 # cargo-dist crate for distribution archives
 
-The `cargo-dist` crate is a Rust crate that provides a simple and convenient way to package a Rust project as a distributable archive. The crate is designed to work with the Rust cargo build system, and provides a number of features that make it easy to create archives for various platforms.
+<https://crates.io/crates/cargo-dist>
+
+The Rust cargo-dist crate is a Rust crate that provides a simple and convenient way to package a Rust project as a distributable archive. The crate is designed to work with the Rust cargo build system, and provides a number of features that make it easy to create archives for various platforms.
 
 One of the main features of `cargo-dist` is its support for cross-compiling. The crate can automatically build and package your Rust project for a number of different platforms, including Windows, macOS, Linux, and Android, all from a single command. This can save a lot of time and effort when distributing your project to users on multiple platforms.
 

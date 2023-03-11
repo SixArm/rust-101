@@ -1,6 +1,6 @@
 # Assertables crate for assert macro tests
 
-Link: <https://crates.io/crates/assertables>
+<https://crates.io/crates/assertables>
 
 The Rust Assertables crate is a library for assert macro functionality, for Rust testing, validation, and verification. If an assert macro succeeds, then it completes normally. If an assert macro fails, then it prints an error message with debugging information. 
 

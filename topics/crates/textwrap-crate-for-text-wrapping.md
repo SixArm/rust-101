@@ -1,5 +1,7 @@
 # Textwrap crate for text wrapping
 
+<https://crates.io/crates/textwrap>
+
 The Rust Textwrap crate is a library for wrapping and formatting text in Rust. It provides a simple API for wrapping text to a specified width, as well as support for indentation, alignment, and hyphenation.
 
 The Textwrap crate can be used for a variety of text formatting tasks, such as formatting text for display in a terminal, wrapping text for printing to a file, or formatting text for display in a GUI application.

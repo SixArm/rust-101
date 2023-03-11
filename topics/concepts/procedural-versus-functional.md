@@ -1,4 +1,4 @@
-# Procedural programming versus functional programming
+# Procedural versus functional
 
 Pprocedural programming and functional programming are two different paradigms of software development. Rust supports both procedural and functional programming styles, and developers can choose which style to use based on the specific requirements of their application.
 

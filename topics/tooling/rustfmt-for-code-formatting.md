@@ -4,8 +4,6 @@ Rustfmt is a code formatting tool for Rust programming language. It automaticall
 
 Rustfmt can be used as a standalone tool, or as an integrated feature within a code editor, or via a build script. It supports a variety of formatting options, including indentation style, line wrapping, brace styles, and more.
 
-The tool can be configured by using a `.toml` configuration file, which allows developers to customize the formatting rules according to their preferences.
-
 Using Rustfmt is highly recommended by the Rust community as it helps maintain a consistent coding style across a project, which in turn makes the code easier to read, maintain and understand.
 
 To use Rustfmt, you first need to install it on your system. Rustfmt can be installed using Cargo, the package manager for Rust, by running the following command in your terminal:
@@ -13,6 +11,13 @@ To use Rustfmt, you first need to install it on your system. Rustfmt can be inst
 ```sh
 cargo install rustfmt
 ```
+
+You can customize the formatting rules used by Rustfmt by creating a `.toml` configuration file in your project directory and specifying your preferred options. 
+
+TODO: add customization example
+
+
+## To use Rustfmt
 
 To use Rustfmt as a standalone tool: You can format Rust code using Rustfmt directly from the command line by running the following command:
 
@@ -43,5 +48,3 @@ build = "rustfmt <filename.rs>"
 ```
 
 This will run Rustfmt on the specified file before compiling your project.
-
-In all cases, you can customize the formatting rules used by Rustfmt by creating a `.toml` configuration file in your project directory and specifying your preferred options. 

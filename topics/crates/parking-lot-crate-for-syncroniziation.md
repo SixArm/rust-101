@@ -1,5 +1,7 @@
 # parking_lot crate for synchronization
 
+<https://crates.io/crates/parking_lot>
+
 The Rust `parking_lot` crate is a that provides synchronization primitives for Rust programs. Specifically, the crate provides a set of concurrent data structures that are designed to be faster and more efficient than the ones provided by Rust's standard library.
 
 The `parking_lot` crate includes several types of synchronization primitives, such as locks, mutexes, and semaphores. These primitives can be used to coordinate access to shared resources in a multithreaded program, ensuring that multiple threads can safely access the same data without causing data races or other synchronization issues.

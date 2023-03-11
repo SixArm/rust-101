@@ -1,6 +1,6 @@
 # Diesel crate for object-relational mapping
 
-Link: <https://crates.io/crates/diesel>
+<https://crates.io/crates/diesel>
 
 The Rust Diesel crate is a high-level, type-safe ORM (Object-Relational Mapping) library for Rust that provides a convenient and safe way to interact with relational databases. It provides a set of tools and abstractions for working with SQL databases, allowing developers to write safe and efficient code when working with databases.
 

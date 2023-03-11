@@ -1,5 +1,7 @@
 # reqwest crate for HTTP requests
 
+<https://crates.io/crates/reqwest>
+
 The Rust reqwest crate is for making HTTP requests. It is built on top of the Rust async runtime, which makes it efficient and suitable for high-performance networking applications.
 
 With reqwest, you can easily make HTTP requests and handle responses in a synchronous or asynchronous manner. The crate provides a set of simple and intuitive APIs for performing HTTP GET, POST, PUT, DELETE, and other types of requests. It also includes support for request/response headers, URL parameters, and request/response bodies.

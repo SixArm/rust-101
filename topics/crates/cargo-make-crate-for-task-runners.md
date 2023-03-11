@@ -1,6 +1,8 @@
 # cargo-make crate for task runners
 
-The Rust `cargo-make` crate is a tool that extends the functionality of the Cargo package manager by providing a way to define complex build processes in a simple, declarative way.
+<https://crates.io/crates/cargo-make>
+
+The Rust cargo-make crate is a tool that extends the functionality of the Cargo package manager by providing a way to define complex build processes in a simple, declarative way.
 
 Here are some of the key features of the cargo-make crate:
 
@@ -22,7 +24,14 @@ To use cargo-make, you first need to install it using the following command:
 cargo install cargo-make
 ```
 
-After installation, you can define your build process in a Toml configuration file named Makefile.toml. Here's an example Makefile.toml:
+After installation, you can define your build process in a Toml configuration file named `Makefile.toml`. 
+
+In summary, `cargo-make` is a powerful tool that simplifies the process of defining and executing complex build processes in Rust. With its declarative configuration, task management, and cross-platform support, cargo-make can help you improve your Rust project's build performance and maintainability.
+
+
+## cargo-make examples
+
+Here's an example `cargo-make` configuration file `Makefile.toml`:
 
 ```toml
 [tasks.build]
@@ -53,5 +62,3 @@ If you want to execute a specific task, you can use the following command:
 ```sh
 cargo make <task-name>
 ```
-
-In summary, `cargo-make` is a powerful tool that simplifies the process of defining and executing complex build processes in Rust. With its declarative configuration, task management, and cross-platform support, cargo-make can help you improve your Rust project's build performance and maintainability.

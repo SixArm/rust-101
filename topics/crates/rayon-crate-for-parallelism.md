@@ -1,6 +1,8 @@
 # Rayon crate for parallelism
 
-The Rust `rayon` crate provides a high-level API for data parallelism. It allows developers to write code that can automatically be parallelized across multiple threads, without needing to manage low-level details of thread creation and synchronization.
+<https://crates.io/crates/rayon>
+
+The Rust rayon crate provides a high-level API for data parallelism. It allows developers to write code that can automatically be parallelized across multiple threads, without needing to manage low-level details of thread creation and synchronization.
 
 The rayon crate provides several features that make parallelism easier in Rust:
 

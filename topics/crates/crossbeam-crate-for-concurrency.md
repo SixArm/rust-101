@@ -1,8 +1,10 @@
 # Crossbeam crate for concurrency
 
-The Rust `crossbeam` crate provides low-level primitives for concurrent programming, such as locks, channels, and memory fences. These primitives are useful when fine-grained synchronization is required, or when working with non-standard concurrency patterns.
+<https://crates.io/crates/crossbeam>
 
-The crossbeam crate provides several features that make concurrent programming easier in Rust:
+The Rust crossbeam crate provides low-level primitives for concurrent programming, such as locks, channels, and memory fences. These primitives are useful when fine-grained synchronization is required, or when working with non-standard concurrency patterns.
+
+The crossbeam crate provides several features that make concurrent programming easier:
 
 * Atomic types: The crossbeam crate provides atomic types, such as `AtomicBool`, `AtomicI32`, and `AtomicUsize`, which can be used to perform atomic operations on shared variables without the need for locks. This allows for efficient and safe concurrent access to shared data.
 

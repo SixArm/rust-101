@@ -1,4 +1,6 @@
-# arrow-csv crate for parsing CSV data to Arrow data
+# arrow-csv crate for loading CSV into Arrow
+
+<https://crates.io/crates/arrow-csv>
 
 The Rust arrow-csv crate is a library that provides support for reading and writing CSV (Comma-Separated Values) files in the Arrow data format in Rust. The Arrow format is a columnar data format that is designed to be efficient and interoperable across different programming languages and systems.
 

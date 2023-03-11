@@ -1,8 +1,10 @@
 # Rusqlite crate for SQLite databases
 
-The Rust Rusqlite crate is a library for working with SQLite databases. It provides a safe and convenient interface for interacting with SQLite databases, including creating, modifying, and querying data.
+<https://crates.io/crates/rusqlite>
 
-Here's an example of how to use Rusqlite to create a new SQLite database and create a table with some sample data:
+The Rust Rusqlite crate is a library for working with SQLite databases. It provides a safe and convenient interface for  creating, modifying, and querying data.
+
+Here's an example of how to use Rusqlite to create create a table and data:
 
 ```rust
 use rusqlite::{Connection, Result};

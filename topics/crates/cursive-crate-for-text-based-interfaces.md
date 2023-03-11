@@ -1,5 +1,7 @@
 # Cursive crate for text-based user interfaces
 
+<https://crates.io/crates/cursive>
+
 The Rust Cursive crate is a TUI (text-based user interface a.k.a. terminal user interface) library for building interactive terminal applications. It allows developers to create rich terminal UIs with features such as customizable layouts, event handling, input handling, and styling.
 
 Cursive is built on top of the Rust `ncurses` library, which provides low-level terminal I/O and screen rendering. Cursive provides a higher-level API than ncurses, making it easier to build complex UIs without worrying about the details of terminal control.
