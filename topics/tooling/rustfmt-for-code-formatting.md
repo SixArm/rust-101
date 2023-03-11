@@ -1,5 +1,7 @@
 # Rustfmt for code formatting
 
+<https://rust-lang.github.io/rustfmt>
+
 Rustfmt is a code formatting tool for Rust programming language. It automatically reformats Rust code according to a set of predefined formatting rules, which helps developers to maintain consistent coding styles and makes it easier to read, understand and debug the code.
 
 Rustfmt can be used as a standalone tool, or as an integrated feature within a code editor, or via a build script. It supports a variety of formatting options, including indentation style, line wrapping, brace styles, and more.
@@ -12,12 +14,25 @@ To use Rustfmt, you first need to install it on your system. Rustfmt can be inst
 cargo install rustfmt
 ```
 
-You can customize the formatting rules used by Rustfmt by creating a `.toml` configuration file in your project directory and specifying your preferred options. 
+You can customize the formatting rules used by Rustfmt by creating a configuration file named `rustfmt.toml` or `.rustfmt.toml` in your project directory and specifying your preferred options. 
 
-TODO: add customization example
+Example `rustfmt.toml` file:
+
+```toml
+comment_width = 80
+format_code_in_doc_comments = true
+group_imports = "StdExternalCrate"
+imports_granularity = "Crate"
+imports_layout = "Vertical"
+indent_style = "Block"
+reorder_imports = false
+wrap_comments = true
+```
+
+Overall, Rustfmt is a good tool to reformat code, and to maintain consistent coding styles.
 
 
-## To use Rustfmt
+## Rustfmt usage
 
 To use Rustfmt as a standalone tool: You can format Rust code using Rustfmt directly from the command line by running the following command:
 
