@@ -10,6 +10,17 @@ The OnceCell type is also thread-safe, which means that multiple threads can acc
 
 The OnceCell crate also provides other useful types, such as the unsync::OnceCell<T> type, which is similar to the regular OnceCell<T> but is not thread-safe, and the sync::Lazy<T> type, which is similar to the OnceCell<T> but provides an additional level of indirection that allows for even more efficient initialization and access.
 
-TODO: example
+Example of once_cell `Lazy` to intialize a `Regex` regular expression:
+
+```rust
+use regex::Regex;
+use once_cell::sync::Lazy;
+
+fn main() {
+    static RE: Lazy<Regex> = Lazy::new(||Regex::new("hello").unwrap());
+    let matched = RE.is_match("hello world");
+    println!("{}", matched);
+}
+```
 
 Overall, the Rust once_cell crate is a useful tool for managing global state in Rust programs, especially in cases where lazy initialization and thread-safety are important. It provides a simple and efficient API for creating and accessing lazily evaluated global variables that can be used in a wide range of applications.
