@@ -1,4 +1,4 @@
-# Rc (Reference Counted) type for single-thread sharing
+# Rc type for single-thread sharing
 
 In Rust, `Rc` (Reference Counted) is a smart pointer that provides shared ownership of a value. `Rc` works by keeping track of the number of references to a value, and ensuring that the value is not dropped until all references have been dropped. When a new reference to the value is created, `Rc` increments the reference count, and when a reference is dropped, `Rc` decrements the reference count. When the reference count reaches zero, `Rc` drops the value.
 

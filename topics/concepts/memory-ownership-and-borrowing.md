@@ -9,3 +9,5 @@ This ownership model allows Rust to guarantee memory safety at compile-time, wit
 In addition to ownership, Rust also provides a mechanism for borrowing, which allows multiple variables to have temporary access to a value without taking ownership of it. This allows for efficient and flexible memory management, while still ensuring that memory safety is maintained.
 
 Overall, Rust's memory ownership model provides a powerful and safe way to manage memory in a concurrent and parallel programming environment.
+
+TODO: example

@@ -23,7 +23,7 @@ impl Rectangle {
 }
 ```
 
-This example defines an implementation block for the `Rectangle` struct using the `impl` keyword, and defines a method named `area` that calculates the area of the rectangle. The `&self` parameter indicates that the method takes a reference to the struct as its first argument.
+This example uses `impl` to define an implementation block for the `Rectangle` struct, and defines a method named `area` that calculates the area of the rectangle. The `&self` parameter indicates that the method takes a reference to the struct as its first argument.
 
 Once a struct is defined, you can create instances of the struct by calling its constructor function, which is the name of the struct followed by `::new`. For example:
 
@@ -33,4 +33,4 @@ let r = Rectangle { width: 10, height: 20 };
 
 This creates a new `Rectangle` struct with a `width` field of 10, and an `height` field of 20.
 
-Overall, structs in Rust provide a powerful and flexible way to define custom data types with associated functions and methods, making it easy to organize and manipulate complex data structures.
+Overall, structs in Rust provide ways to define custom data types with associated functions and methods, making it easy to organize and manipulate complex data structures.

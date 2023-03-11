@@ -7,3 +7,5 @@ One of the key features of Rhai is its safety and security. Rhai enforces sandbo
 Rhai's syntax is similar to Rust's syntax, making it easy for Rust developers to learn and use. Rhai also provides a number of built-in functions and operators that simplify common scripting tasks such as string manipulation, math operations, and control flow.
 
 Overall, Rhai is a powerful and safe scripting language that is well-suited for Rust applications. Its ease of use and security features make it a great choice for developers who want to add scripting capabilities to their Rust applications.
+
+TODO: example

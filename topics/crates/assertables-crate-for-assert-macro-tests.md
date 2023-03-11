@@ -37,5 +37,3 @@ mod test_assert_x_result {
 In the `example1` function, we use the `assert_lt!` macro to test that `x` is less than `y`. In the `example2` function, we use the `assert_starts_with!` macro to test that `string1` starts with `string2`.
 
 The Assertable crate provides a range of macros for compile-time testing, as well as debug macros for non-optimized runtime debugging, and runtime macros for optimized runtime validation and verification.
-
-Overall, the Assertables crate provides more power and flexibility to do test assertions, making it easier to build clear reliable tests for your Rust programs.

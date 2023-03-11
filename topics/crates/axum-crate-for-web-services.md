@@ -17,3 +17,5 @@ Axum provides a number of features that make it a powerful tool for building web
 * Testing: Axum includes tools for testing your web application, making it easy to write automated tests for your code.
 
 Overall, Rust axum is well-suited for building microservices and APIs. If you're looking for a fast, low-level framework that gives you complete control over your web application, then Axum is definitely worth considering.
+
+TODO: example

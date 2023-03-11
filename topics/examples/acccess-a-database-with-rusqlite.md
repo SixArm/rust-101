@@ -13,31 +13,29 @@ fn main() -> Result<()> {
     // Create a table
     conn.execute(
         "CREATE TABLE IF NOT EXISTS people (
-                  id    INTEGER PRIMARY KEY,
-                  name  TEXT NOT NULL,
-                  age   INTEGER NOT NULL
-                  )",
+            id    INTEGER PRIMARY KEY,
+            name  TEXT NOT NULL
+        )",
         [],
     )?;
 
     // Insert some data
     conn.execute(
-        "INSERT INTO people (name, age) VALUES (?1, ?2)",
-        ["Alice", 42],
+        "INSERT INTO people (name) VALUES (?1)", ["Alice"],
     )?;
 
     // Query the data
-    let mut stmt = conn.prepare("SELECT name, age FROM people")?;
+    let mut stmt = conn.prepare("SELECT name FROM people")?;
     let rows = stmt.query_map([], |row| {
-        Ok((row.get::<_, String>(0)?, row.get::<_, i32>(1)?))
+        Ok((row.get::<_, String>(0)?))
     })?;
 
     for row in rows {
-        println!("Name: {}, Age: {}", row.unwrap().0, row.unwrap().1);
+        println!("Name: {}", row.unwrap().0);
     }
 
     Ok(())
 }
 ```
 
-In this example, we're creating a `Connection` to a SQLite database file named `example.db`, creating a table named people, inserting some data into it, and then querying the data and printing it out. The rusqlite library provides many other features for working with SQLite databases, such as transactions, prepared statements, and more.
+This example creates a `Connection` to a SQLite database file named `example.db`, creates a table named "people", inserts data into it, queries the data, and prints it out. The rusqlite library provides many other features for working with SQLite databases, such as transactions, prepared statements, and more.

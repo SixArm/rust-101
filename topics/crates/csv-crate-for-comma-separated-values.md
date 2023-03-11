@@ -11,3 +11,5 @@ The CSV crate also provides a range of other useful types and functions, such as
 The CSV crate is highly performant and is designed to handle large CSV files efficiently. It provides a range of optimizations, such as lazy parsing and zero-copy parsing, to minimize memory usage and improve performance.
 
 Overall, the Rust CSV crate is a powerful and flexible CSV library that provides a fast and efficient way to work with CSV data in Rust programs. It is widely used in a variety of applications, including data analysis, data processing, and data exchange.
+
+TODO: example

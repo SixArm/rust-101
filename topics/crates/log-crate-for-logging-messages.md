@@ -21,3 +21,5 @@ The log crate provides a number of other macros and functions for working with l
 The log crate also allows you to configure the logging behavior at runtime by setting the log level and enabling or disabling specific loggers. This can be useful for debugging and troubleshooting purposes.
 
 Overall, the Rust log crate provides a flexible and powerful logging framework for Rust programs that can be customized to fit a wide range of use cases.
+
+TODO: example

@@ -1,4 +1,4 @@
-# Tokio crate for asynchronous and concurrent code
+# Tokio crate for asynchronicity/concurrency
 
 <https://crates.io/crates/tokio>
 

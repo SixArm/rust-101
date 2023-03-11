@@ -45,3 +45,4 @@ The Rust Assertables crate provides more macros for writing more kinds of test a
 
 * `assert_is_match(regex, string)`: Checks whether the regular expression regex matches the string.
 
+* `assert_fn_eq!(function1, function2)`: Checks whether two funcions return equal results.

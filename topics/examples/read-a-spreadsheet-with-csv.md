@@ -1,4 +1,4 @@
-# Read a spreadsheet with csv
+# Read a spreadsheet with CSV
 
 Rust example code to read CSV file, by using the `csv` crate:
 

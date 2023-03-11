@@ -11,3 +11,5 @@ Declarative macros (also known as "macro_rules! macros") use pattern matching to
 Procedural macros, on the other hand, operate on the AST (abstract syntax tree) of the code. They are defined using Rust's proc_macro API and allow you to write code that generates new code at compile-time. Procedural macros can be used to implement custom derive macros, attribute macros, and function-like macros.
 
 Overall, Rust macros provide a powerful mechanism for metaprogramming, allowing you to write code that generates code at compile-time. Whether you need to create DSLs, reduce boilerplate code, or implement code generation tools, Rust macros provide a flexible and expressive way to accomplish these tasks.
+
+TODO: example

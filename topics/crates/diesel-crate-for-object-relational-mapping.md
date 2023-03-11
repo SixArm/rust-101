@@ -17,3 +17,5 @@ Some of the key features of Rust Diesel include:
 * Schema migrations: Rust Diesel provides a simple and powerful schema migration system, making it easy to manage changes to the database schema over time.
 
 Overall, Rust Diesel is a powerful and flexible tool for working with databases in Rust, providing a high-level, type-safe API that is easy to use and provides high performance when interacting with databases.
+
+TODO: example

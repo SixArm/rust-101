@@ -12,6 +12,13 @@ clap = { version = "4", features = ["deprecated", "derive", "cargo", "env", "uni
 
 Once you've done that, you can import the crate and start defining your CLI options.
 
+CLAP offers a variety of syntaxes, such as a `Derive` syntax that can automatically configure many CLAP options, a macro syntax that can configure a command step-by-step, and a builder syntex.
+
+Overall, the CLAP crate provides a powerful and flexible way to parse command-line arguments in Rust, making it easy to build robust and user-friendly command-line interfaces for your Rust programs.
+
+
+## CLAP command macro
+
 Here's a simple example of how to use the CLAP crate to define a CLI for a Rust program, and how to use the `clap::command!` macro:
 
 ```rust
@@ -46,7 +53,3 @@ pub fn clap() -> ... {
 In this example, we define a CLI for a program that takes two optional arguments: `--input` and `--verbose`. We use the `clap::command!` macro to define each argument, specifying a help message, a short name, a long names, an an action such as `clap::ArgAction::Set` or `clas::ArgAction::Count`.
 
 We then use the `get_matches()` method to parse the command-line arguments and return a matches struct. We can use this struct to retrieve the values of the `--input` and `--verbose` arguments (if provided).
-
-CLAP offers a variety of syntaxes, such as the macro syntax as above, as well as a `Derive` syntax that can automatically configure many CLAP options, and a builder syntex.
-
-Overall, the CLAP crate provides a powerful and flexible way to parse command-line arguments in Rust, making it easy to build robust and user-friendly command-line interfaces for your Rust programs.

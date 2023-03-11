@@ -13,9 +13,9 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [What is a Rust "FizzBuzz" program?](topics/starters/what-is-a-rust-fizzbuzz-program.md)
 
-* [What makes Rust a good programming language?](topics/starters/what-makes-rust-a-good-programming-language.md)
+* [What makes Rust good?](topics/starters/what-makes-rust-good.md)
 
-* [Does Rust use programming language theory?](topics/starters/does-rust-use-programming-language-theory.md)
+* [Is Rust using programming language theory?](topics/starters/is-rust-using-programming-language-theory.md)
   
 * [What is the Rust ecosystem?](topics/starters/what-is-the-rust-ecosystem.md)
 
@@ -47,7 +47,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Borrow checker](topics/concepts/borrow-checker.md)
   
-* [Channels for thread communication](topics/concepts/channels-for-thread-communication-threads.md)
+* [Channels for thread communication](topics/concepts/channels-for-thread-communication.md)
 
 * [Concurrency and parallelism](topics/concepts/concurrency-and-parallelism.md)
 
@@ -85,7 +85,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 ### Specialized uses
 
-* [Rust for artificial intelligence / machine learning](topics/uses/rust-for-artificial-intelligence-and-machine-learning.md)
+* [Rust for artificial intelligence](topics/uses/rust-for-artificial-intelligence.md)
   
 * [Rust for embedded devices](topics/uses/rust-for-embedded-devices.md)
 
@@ -126,9 +126,9 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Eq, PartialEq, Ord, PartialOrd, Hash traits](topics/traits/eq-partialeq-ord-partialord-hash-traits.md)
   
-* [From trait and Into trait for conversions](topics/traits/from-trait-and-into-trait-for-conversions.md)
+* [From and Into traits for conversions](topics/traits/from-and-into-traits-for-conversions.md)
 
-* [Send and Sync traits for multithreading](topics/traits/send-and-syncs-trait-for-multithreading.md)
+* [Send and Sync traits for multithreading](topics/traits/send-and-sync-trait-for-multithreading.md)
 
 
 ### Keywords we use often
@@ -198,9 +198,9 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
   
 * [Make HTTP GET request with reqwest](topics/examples/make-http-get-request-with-reqwest.md)
 
-* [Parse JSON data with Serde](topics/examples/parse-json-data-with-serde-crate.md)
+* [Parse JSON data with Serde](topics/examples/parse-json-data-with-serde.md)
 
-* [Read a data file with CSV](topics/examples/read-a-data-file-with-csv-crate.md)
+* [Read a spreadsheet with CSV](topics/examples/read-a-spreadsheet-with-csv.md)
 
 * [Run a terminal program with cursive](topics/examples/run-a-terminal-program-with-cursive.md)
 
@@ -214,7 +214,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [rustup command-line tool](topics/tooling/rustup-command-line-tool.md)
 
-* [Cargo package manager and crates](topics/tooling/cargo-package-manager-and-crate-packages.md)
+* [Cargo package manager and crates](topics/tooling/cargo-package-manager-and-crates.md)
 
 * [Clippy linting](topics/tooling/clippy-linting.md)
 
@@ -248,9 +248,9 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
   
 * [Model-view-controller (MVC)](topics/concepts/model-view-controller-mvc.md)
 
-* [Object-oriented versus functional](topics/concepts/object-oriented-programming-versus-functional-programming.md)
+* [Object-oriented versus functional](topics/concepts/object-oriented-versus-functional.md)
 
-* [Procedural versus functional](topics/concepts/procedural-programming-versus-functional-programming.md)
+* [Procedural versus functional](topics/concepts/procedural-versus-functional.md)
 
 * [Resource Acquisition Is Initialization (RAII)](topics/concepts/resource-acquisition-is-initialization.md)
 
@@ -310,7 +310,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 ### Crates we like for data analysis
 
-* [arrow-csv crate for loading CSV into Arrow](topics/crates/arrow-csv-crate-for-parsing-csv-data-to-arrow-data.md)
+* [arrow-csv crate for loading CSV to Arrow](topics/crates/arrow-csv-crate-for-loading-csv-to-arrow.md)
 
 * [CSV crate for comma-separated values](topics/crates/csv-crate-for-comma-separated-values.md)
 
@@ -332,5 +332,5 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Hyper crate for HTTP clients/servers](topics/crates/hyper-crate-for-http-clients-servers.md)
   
-* [Tokio crate for asynchronous and concurrent code](topics/crates/tokio-crate-for-asynchronous-and-concurrent-code.md)
+* [Tokio crate for asynchronicity/concurrency](topics/crates/tokio-crate-for-asynchronicity-concurrency.md)
 

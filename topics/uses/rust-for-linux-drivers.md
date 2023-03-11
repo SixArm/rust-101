@@ -11,3 +11,5 @@ Rust's built-in concurrency features, including asynchronous programming support
 In addition, Rust has a growing ecosystem of libraries and tools that can help simplify driver development, including crates for working with hardware interfaces, such as I2C and SPI.
 
 Overall, Rust's combination of safety, performance, and modern features make it an attractive choice for developing Linux drivers.
+
+TODO: explain Linux adding Rust as a first-class language

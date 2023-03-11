@@ -1,4 +1,4 @@
-# Channels for communication between threads
+# Channels for thread communication
 
 Rust channels are a way to facilitate communication between threads in Rust. They allow threads to send messages to each other in a synchronized and safe manner, without the need for explicit locking or other synchronization primitives.
 

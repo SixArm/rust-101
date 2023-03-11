@@ -19,3 +19,5 @@ The `cargo-cache` crate provides several commands that allow you to manage the c
 Using `cargo-cache`, you can easily clear out old or unnecessary cached files, reclaiming valuable disk space on your system. You can also use the `cargo-cache` CLI to better understand the contents of the cache directory and diagnose any issues related to the build process.
 
 In summary, `cargo-cache` is a helpful tool for managing the cache directory used by the Cargo package manager in Rust projects.
+
+TODO: example of setup

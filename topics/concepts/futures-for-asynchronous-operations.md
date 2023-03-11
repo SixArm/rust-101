@@ -9,3 +9,5 @@ Futures are executed by an executor, which is responsible for scheduling and run
 One of the key benefits of Rust's futures is that they are designed to be safe and efficient. Rust's ownership and borrowing system helps prevent common concurrency issues, such as data races and deadlocks. Additionally, Rust's compiler provides powerful static analysis and optimization tools that can help identify and eliminate potential issues in future-based code.
 
 Overall, Rust's futures provide a powerful mechanism for writing non-blocking, asynchronous code that can perform I/O operations efficiently and safely. They are a key component of Rust's support for asynchronous programming, and are widely used in Rust libraries and applications.
+
+TODO: example

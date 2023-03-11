@@ -1,4 +1,4 @@
-# Rust for artificial intelligence / machine learning
+# Rust for artificial intelligence
 
 Rust is a programming language that has been gaining popularity in the field of artificial intelligence (AI) and machine learning (ML) due to its unique combination of safety, performance, and concurrency. Here are some of the key aspects of Rust that make it well-suited for AI and ML:
 

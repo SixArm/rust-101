@@ -17,7 +17,7 @@ let name = person.0;
 let age = person.1;
 ```
 
-Tuples are often used to return multiple values from a function. For example, the `std::fs::metadata` function returns a `Result<std::fs::Metadata>` object, which contains information about a file or directory, such as its size and permissions. The `std::fs::metadata` function returns a tuple containing the `std::fs::Metadata` object and the `std::io::Result` object, which contains information about any errors that occurred:
+Tuples are often used to return multiple values from a function. For example, the `std::fs::metadata` function returns a result that is tuple, and contains information about a file or directory, such as its size and permissions:
 
 ```rust
 use std::fs;
@@ -29,7 +29,5 @@ fn main() -> std::io::Result<()> {
     Ok(())
 }
 ```
-
-This calls the `std::fs::metadata` function, then extracts the file size and permissions, then prints them to the console.
 
 In summary, a tuple in Rust is an ordered collection of values with a fixed length. Tuples can contain values of different types and are represented using parentheses () with the values separated by commas.

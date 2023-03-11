@@ -11,3 +11,5 @@ Another useful feature of `cargo-dist` is its support for packaging dependencies
 Finally, `cargo-dist` provides a number of options for customizing the packaging process. You can specify the format of the archive (e.g. `.tar.gz`, `.zip`, etc.), include or exclude specific files or directories, and more. This can help ensure that the distributable archive contains exactly what you want, and nothing more.
 
 In summary, the `cargo-dist` crate provides a convenient and flexible way to package your Rust project as a distributable archive, with support for cross-compiling, dependency packaging, and customization options.
+
+TODO: example

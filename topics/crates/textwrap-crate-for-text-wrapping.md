@@ -19,3 +19,5 @@ Some of the key features of the Textwrap crate include:
 * Support for a variety of text input and output formats, including plain text, HTML, and Markdown.
 
 Overall, the Rust Textwrap crate is a powerful tool for formatting and wrapping text in Rust. Its flexible API and support for advanced features like hyphenation and custom line breaking rules make it a great choice for developers looking to format text for a variety of applications.
+
+TODO: example

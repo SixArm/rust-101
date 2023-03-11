@@ -29,6 +29,8 @@ fn main() {
 
 In this example, we bring the `public_function` from `my_module` into the scope of main, allowing us to call it directly.
 
+Overall, namespaces in Rust provide a powerful mechanism for organizing and structuring code, enabling developers to write more modular, reusable, and maintainable software.
+
 
 ## Hierarchical modules
 
@@ -53,4 +55,4 @@ mod outer_module {
 
 In this example, `inner_module` is nested within `outer_module`, creating a hierarchy of namespaces. We can use the `use` keyword to bring `public_function` into scope, and then call it from `call_public_function`.
 
-Overall, namespaces in Rust provide a powerful mechanism for organizing and structuring code, enabling developers to write more modular, reusable, and maintainable software.
+Overall, heirarchical modules in Rust provide ways for organizing and structuring code, by using nested namespaces.

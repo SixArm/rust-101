@@ -11,3 +11,5 @@ One of the key features of reqwest is its ability to handle HTTPS connections by
 In addition to basic HTTP requests, reqwest also includes support for more advanced features like connection pooling, timeouts, and cookies. It also provides a simple and extensible way to implement custom middleware to handle things like authentication or request/response logging.
 
 Overall, Rust reqwest is a powerful and easy-to-use HTTP client library that can help you build robust and efficient networking applications in Rust.
+
+TODO: example

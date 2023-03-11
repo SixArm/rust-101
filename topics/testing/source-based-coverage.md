@@ -15,3 +15,5 @@ The resulting coverage report provides developers with insights into the effecti
 One key advantage of Rust source-based coverage is that it can provide more accurate coverage measurements than alternative methods, such as binary-based coverage. This is because source-based coverage is able to account for control structures, such as branches and loops, which can lead to different paths through the code being executed.
 
 Overall, Rust source-based coverage is a valuable tool for ensuring the quality and reliability of Rust codebases, and can help developers identify areas for improvement in their testing strategies.
+
+TODO: example

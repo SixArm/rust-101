@@ -6,7 +6,12 @@ The Rust sqlx crate is a third-party library that provides a safe and convenient
 
 To use the sqlx crate in your Rust project, you'll need to add it as a dependency in your Cargo.toml file. Once you've done that, you can start using its functions and macros to interact with your database.
 
-Query Execution: The `sqlx` crate provides a range of functions and macros for executing SQL queries and processing the results. For example, the `query` macro can be used to execute a parameterized SQL query and return the results as a vector of rows:
+Overall, the `sqlx` crate provides a convenient and efficient way to interact with databases in Rust, making it easy to execute SQL queries, manage transactions, and convert database results into Rust types. It is a popular choice for Rust developers who need to work with databases, and it supports a wide range of database backends, making it suitable for many different uses.
+
+
+## sqlx query execution
+
+The `sqlx` crate provides a range of functions and macros for executing SQL queries and processing the results. For example, the `query` macro can be used to execute a parameterized SQL query and return the results as a vector of rows:
 
 ```rust
 use sqlx::{postgres::PgPool, Row};
@@ -33,7 +38,10 @@ async fn main() -> Result<(), sqlx::Error> {
 }
 ```
 
-Transactions: The `sqlx` crate provides a simple and safe way to manage database transactions, using the `begin`, `commit`, and `rollback` functions. For example, you can use these functions to perform a database update within a transaction:
+
+## sqlx transactions
+
+The `sqlx` crate provides a simple and safe way to manage database transactions, using the `begin`, `commit`, and `rollback` functions. For example, you can use these functions to perform a database update within a transaction:
 
 ```rust
 use sqlx::{postgres::PgPool, Transaction};
@@ -55,7 +63,10 @@ async fn main() -> Result<(), sqlx::Error> {
 }
 ```
 
-Type Conversion: The `sqlx` crate provides automatic type conversion for many Rust types, including integers, strings, and dates. For example, you can use the `query_as` function to automatically convert query results into a custom struct:
+
+## sqlx type conversion
+
+The `sqlx` crate provides automatic type conversion for many Rust types, including integers, strings, and dates. For example, you can use the `query_as` function to automatically convert query results into a custom struct:
 
 ```rust
 use sqlx::{postgres::PgPool, Row};
@@ -86,5 +97,3 @@ async fn main() -> Result<(), sqlx::Error> {
     Ok(())
 }
 ```
-
-Overall, the `sqlx` crate provides a convenient and efficient way to interact with databases in Rust, making it easy to execute SQL queries, manage transactions, and convert database results into Rust types. It is a popular choice for Rust developers who need to work with databases, and it supports a wide range of database backends, making it suitable for many different uses.

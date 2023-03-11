@@ -15,3 +15,5 @@ Here are the steps involved in using Rust doc tests:
 * Analyze the test results: After the tests have run, the output of the tests can be analyzed to determine whether the doc tests have passed or failed. Rust's testing framework provides detailed information about the tests that have been run, including the number of tests that have passed or failed and the reason for the failures.
 
 By following these steps, developers can use Rust doc tests to validate the examples and expected behavior included in the documentation of their code, ensuring that the documentation remains accurate and up-to-date.
+
+TODO: example

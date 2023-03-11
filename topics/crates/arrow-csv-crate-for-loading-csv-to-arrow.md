@@ -1,4 +1,4 @@
-# arrow-csv crate for loading CSV into Arrow
+# arrow-csv crate for loading CSV to Arrow
 
 <https://crates.io/crates/arrow-csv>
 

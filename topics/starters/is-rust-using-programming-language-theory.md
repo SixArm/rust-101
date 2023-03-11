@@ -1,4 +1,4 @@
-# Does Rust use programming language theory?
+# Is Rust using programming language theory?
 
 The Rust programming language was designed with a strong focus on safety, speed, and concurrency, and informed by various programming language theories, such as type theory, ownership theory, and concurrency theory.
 

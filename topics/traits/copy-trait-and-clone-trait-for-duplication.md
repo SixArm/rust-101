@@ -11,3 +11,5 @@ The `Clone trait`, on the other hand, is used for types that need to be explicit
 To implement the `Clone` trait for a type, you need to provide an implementation of the `clone` method, which creates a new instance of the type and clones any owned data. Rust also provides a default implementation of `Clone` for types that implement the `Copy` trait, which simply returns a bitwise copy of the value.
 
 In summary, the `Copy` trait is used for types that can be copied bit-by-bit, while the `Clone` trait is used for types that need to be explicitly cloned in order to make a copy.
+
+TODO: example

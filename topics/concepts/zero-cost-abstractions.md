@@ -11,3 +11,5 @@ Furthermore, Rust's ownership and borrowing system allows the compiler to optimi
 This approach allows Rust developers to write high-level code that is easy to read and maintain, while still achieving the performance and efficiency of low-level code. This makes Rust a popular choice for performance-critical applications, such as game engines, web browsers, and operating systems.
 
 Overall, zero-cost abstractions are an important aspect of Rust's design, and they enable Rust to combine high-level abstractions with low-level performance, making it a powerful and efficient language for building complex and performance-critical systems.
+
+TODO: example

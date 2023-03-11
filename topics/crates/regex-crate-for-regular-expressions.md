@@ -13,3 +13,5 @@ The regex crate supports a wide range of regular expression syntax, including Pe
 The regex crate is highly performant and is designed to handle large inputs efficiently. It provides a range of options for controlling the matching behavior, such as case-insensitive matching, multi-line matching, and greedy or lazy quantifiers.
 
 Overall, the Rust regex crate is a powerful and flexible regular expression library that provides a fast and efficient way to search, match, and manipulate text in Rust programs. It is widely used in a variety of applications, including text processing, data validation, and parsing.
+
+TODO: example
