@@ -59,6 +59,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Monomorphisation](topics/concepts/monomorphisation-of-generic-code.md)
 
+* [Rust stable versus Rust nightly](topics/concepts/rust-stable-versus-rust-nightly.md)
+
 * [Unsafe code](topics/concepts/unsafe-code.md)
 
 * [WebAssembly (WASM)](topics/concepts/webassembly-wasm.md)
