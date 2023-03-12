@@ -18,4 +18,37 @@ Axum provides a number of features that make it a powerful tool for building web
 
 Overall, Rust axum is well-suited for building microservices and APIs. If you're looking for a fast, low-level framework that gives you complete control over your web application, then Axum is definitely worth considering.
 
-TODO: example
+Here's an example of using the axum crate to build a web service in Rust:
+
+```rust
+use axum::{handler::get, Router};
+use std::net::SocketAddr;
+
+async fn hello_world() -> &'static str {
+    "Hello, world!"
+}
+
+#[tokio::main]
+async fn main() {
+    let app = Router::new().route("/", get(hello_world));
+
+    let addr = SocketAddr::from(([127, 0, 0, 1], 3000));
+
+    println!("Listening on http://{}", addr);
+
+    axum::Server::bind(&addr)
+        .serve(app.into_make_service())
+        .await
+        .unwrap();
+}
+```
+
+In this example, we use the axum crate to define a simple web service that responds to HTTP GET requests to the root URL with a "Hello, world!" message.
+
+First, we define an asynchronous function called `hello_world` that returns the static string "Hello, world!".
+
+Next, we define a router using the `Router::new()` function, and use the `route()` method to define a route that maps the root URL (`"/"`) to the hello_world handler function.
+
+We then create a SocketAddr object representing the address and port on which the web service will listen (`127.0.0.1:3000`), and print a message indicating that the service is listening on that address.
+
+Finally, we use the `axum::Server` type to bind the address to the web service, and serve it using the `serve()` method.

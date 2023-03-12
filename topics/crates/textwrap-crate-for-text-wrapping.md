@@ -20,4 +20,24 @@ Some of the key features of the Textwrap crate include:
 
 Overall, the Rust Textwrap crate is a powerful tool for formatting and wrapping text in Rust. Its flexible API and support for advanced features like hyphenation and custom line breaking rules make it a great choice for developers looking to format text for a variety of applications.
 
-TODO: example
+Here is an example of using the textwrap crate in Rust programming language:
+
+```rust
+use textwrap::{wrap, dedent};
+
+fn main() {
+    let input_text = "Rust is a great programming language";
+    let wrapped_text = wrap(input_text, 25);
+    let dedented_text = dedent(wrapped_text);
+    println!("{}", dedented_text);
+}
+```
+
+In this example, we import the `wrap` and `dedent` functions from the textwrap crate. `wrap` is used to wrap text into lines of a specified width, while `dedent` removes common leading whitespace from the start of each line. We then pass in a sample text string, wrap it to 25 characters per line, and dedent the text. Finally, we print the formatted text to the console.
+
+The output of this program will be:
+
+```text
+Rust is a great
+programming language
+```

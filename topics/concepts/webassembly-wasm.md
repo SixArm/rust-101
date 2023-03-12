@@ -10,4 +10,59 @@ Rust's support for WebAssembly also extends beyond the web. WASM can be run in a
 
 Overall, Rust's support for WebAssembly makes it a powerful tool for developing high-performance, secure, and cross-platform applications that can be executed in a variety of environments, including web browsers.
 
-TODO: example
+
+## Example
+
+Here is a simple Rust programming example for WebAssembly (WASM):
+
+1. First, you need to install Rust and the necessary tools for building WebAssembly applications. You can follow the instructions here: https://www.rust-lang.org/tools/install
+
+2. Create a new Rust project by running the following command in your terminal:
+
+```
+cargo new wasm-example --lib
+```
+
+This command will create a new Rust project called `wasm-example` with a `lib.rs` file in the `src/` directory.
+
+3. Add the `wasm-bindgen` dependency to your `Cargo.toml` file. This library provides Rust bindings for JavaScript and makes it easy to call Rust functions from JavaScript:
+
+```
+[dependencies]
+wasm-bindgen = "0.2.72"
+```
+
+4. In your `lib.rs` file, add the `wasm_bindgen` macro to the top of the file:
+
+```rust
+use wasm_bindgen::prelude::*;
+```
+
+5. Define a simple Rust function that takes two numbers and returns their sum:
+
+```rust
+#[wasm_bindgen]
+pub fn add(a: i32, b: i32) -> i32 {
+    a + b
+}
+```
+
+6. Build your Rust code as a WebAssembly module by running the following command:
+
+```
+cargo +nightly build --target wasm32-unknown-unknown --release
+```
+
+This will create a WASM file called `wasm-example.wasm` in the `target/wasm32-unknown-unknown/release/` directory.
+
+7. Finally, create a JavaScript file that loads the WASM module and calls your Rust function:
+
+```javascript
+import("./wasm_example_bg.wasm").then((module) => {
+  const { add } = module;
+
+  console.log(add(1, 2)); // outputs 3
+});
+```
+
+This JavaScript code loads the WASM module using the `import()` function, which is a new feature in JavaScript that allows you to dynamically load modules at runtime. Once the module is loaded, you can call your Rust function using the `add` variable.

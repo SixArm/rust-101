@@ -109,11 +109,16 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Tuples for ordered collections](topics/syntax/tuples-for-ordered-collections.md)
 
+
+### Types we use often for memory areas
+
 * [Box type for a smart pointer](topics/types/box-smart-pointer.md)
 
 * [Rc type for single-thread sharing](topics/types/rc-type-for-single-thread-sharing.md)
 
 * [Arc type for multi-thread sharing](topics/types/arc-type-for-multi-thread-sharing.md)
+
+* [Pin type for memory location](topics/types/pin-type-for-memory-location.md)
 
 
 ### Traits we use often

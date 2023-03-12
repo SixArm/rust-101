@@ -49,5 +49,3 @@ int main() {
 This calls the `rust_function` function with the specified argument and prints the result to the console.
 
 In summary, the Rust FFI enables Rust code to interoperate with code written in other languages, and can be used to call external functions from Rust or to expose Rust functions to other languages.
-
-TODO: page format

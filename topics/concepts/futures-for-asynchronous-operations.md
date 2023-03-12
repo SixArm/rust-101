@@ -10,4 +10,25 @@ One of the key benefits of Rust's futures is that they are designed to be safe a
 
 Overall, Rust's futures provide a powerful mechanism for writing non-blocking, asynchronous code that can perform I/O operations efficiently and safely. They are a key component of Rust's support for asynchronous programming, and are widely used in Rust libraries and applications.
 
-TODO: example
+Here's an example of using Rust Futures for an asynchronous HTTP request:
+
+```rust
+use futures::Future;
+use reqwest::Url;
+
+async fn fetch_url(url: Url) -> Result<String, reqwest::Error> {
+    let response = reqwest::get(url).await?;
+    let body = response.text().await?;
+    Ok(body)
+}
+
+fn main() {
+    let url = Url::parse("https://example.com").unwrap();
+    let future = fetch_url(url);
+    tokio::runtime::Runtime::new().unwrap().block_on(future).unwrap();
+}
+```
+
+In this example, we define an asynchronous function fetch_url that takes a Url and returns a Result<String, reqwest::Error>. The function uses the reqwest library to make an HTTP GET request to the specified URL, and returns the response body as a string.
+
+We then create a Url object and call fetch_url with it, which returns a Future that we store in a variable. Finally, we use the tokio runtime to run the Future and block until it completes, printing the result.
