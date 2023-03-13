@@ -4,11 +4,7 @@ In Rust, a future is a type that represents an asynchronous operation that may n
 
 Rust's futures are composable, which means that multiple futures can be combined to create more complex workflows. Futures can be chained together to form a pipeline, with each future representing a step in the pipeline. When one future completes, it can trigger the next future in the pipeline to begin executing.
 
-Futures are executed by an executor, which is responsible for scheduling and running the futures. Rust provides several built-in executors, including a basic executor that runs all futures on the same thread, and a Tokio executor that uses a thread pool to run futures in parallel.
-
-One of the key benefits of Rust's futures is that they are designed to be safe and efficient. Rust's ownership and borrowing system helps prevent common concurrency issues, such as data races and deadlocks. Additionally, Rust's compiler provides powerful static analysis and optimization tools that can help identify and eliminate potential issues in future-based code.
-
-Overall, Rust's futures provide a powerful mechanism for writing non-blocking, asynchronous code that can perform I/O operations efficiently and safely. They are a key component of Rust's support for asynchronous programming, and are widely used in Rust libraries and applications.
+Futures are executed by an executor, which is responsible for scheduling and running the futures. Rust provides several built-in executors, including a basic executor that runs all futures on the same thread.
 
 Here's an example of using Rust Futures for an asynchronous HTTP request:
 
@@ -29,6 +25,6 @@ fn main() {
 }
 ```
 
-In this example, we define an asynchronous function fetch_url that takes a Url and returns a Result<String, reqwest::Error>. The function uses the reqwest library to make an HTTP GET request to the specified URL, and returns the response body as a string.
+This example defines an asynchronous function `fetch_url` that takes a `Url` and returns a `Result<String, reqwest::Error>`. The function uses the `reqwest` crate library to make an HTTP GET request to the specified URL, and returns the response body as a string. 
 
-We then create a Url object and call fetch_url with it, which returns a Future that we store in a variable. Finally, we use the tokio runtime to run the Future and block until it completes, printing the result.
+When we call `fetch_url`, the function returns a `Future` that we store in a variable. We use the tokio runtime to run the `Future` and block until it completes. Finally, we print the result.

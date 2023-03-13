@@ -22,30 +22,6 @@ let result = unsafe { some_function(arg1, &mut arg2) };
 
 This calls the `some_function` function with the specified arguments, passing a mutable reference to `arg2` using the `&mut` operator.
 
-Rust also provides a `#[no_mangle]` attribute that can be used to disable Rust's name mangling, which can be useful when interacting with external libraries. For example, you can declare a Rust function with the `#[no_mangle]` attribute and call it from C code:
-
-```rust
-#[no_mangle]
-pub extern "C" fn rust_function(arg: i32) -> i32 {
-    arg * 2
-}
-```
-
-This declares a Rust function called rust_function that takes an `i32` as an argument and returns an `i32`, and specifies the "C" calling convention using the `extern "C"` syntax. The `#[no_mangle]` attribute tells the Rust compiler not to mangle the function name.
-
-You can then use this Rust function from C code:
-
-```c
-extern int rust_function(int arg);
-
-int main() {
-    int arg = 42;
-    int result = rust_function(arg);
-    printf("rust_function returned %d\n", result);
-    return 0;
-}
-```
-
-This calls the `rust_function` function with the specified argument and prints the result to the console.
+Rust also provides a `#[no_mangle]` attribute that can be used to disable Rust's name mangling, which can be useful when interacting with external libraries. For example, you can declare a Rust function with the `#[no_mangle]` attribute and call it from C code.
 
 In summary, the Rust FFI enables Rust code to interoperate with code written in other languages, and can be used to call external functions from Rust or to expose Rust functions to other languages.

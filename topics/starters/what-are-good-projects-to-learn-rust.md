@@ -1,4 +1,4 @@
-# What are good open source projects for learning Rust?
+# What are good projects to learn Rust?
 
 Learning Rust can be a rewarding experience, and contributing to open-source projects can be a great way to develop your skills while making meaningful contributions to the community. Here are some open-source Rust projects that can be good for learning Rust:
 

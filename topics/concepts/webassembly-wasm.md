@@ -8,59 +8,44 @@ One of the main benefits of using Rust for WebAssembly is performance. Rust's fo
 
 Rust's support for WebAssembly also extends beyond the web. WASM can be run in a variety of environments, including mobile devices, IoT devices, and server-side applications. Rust's cross-platform support and memory safety features make it a good choice for developing WASM applications that can run on a variety of platforms.
 
-Overall, Rust's support for WebAssembly makes it a powerful tool for developing high-performance, secure, and cross-platform applications that can be executed in a variety of environments, including web browsers.
-
-
-## Example
-
-Here is a simple Rust programming example for WebAssembly (WASM):
-
-1. First, you need to install Rust and the necessary tools for building WebAssembly applications. You can follow the instructions here: https://www.rust-lang.org/tools/install
-
-2. Create a new Rust project by running the following command in your terminal:
-
-```
-cargo new wasm-example --lib
-```
-
-This command will create a new Rust project called `wasm-example` with a `lib.rs` file in the `src/` directory.
-
-3. Add the `wasm-bindgen` dependency to your `Cargo.toml` file. This library provides Rust bindings for JavaScript and makes it easy to call Rust functions from JavaScript:
+To use the WASM crate, add the dependency to your project `Cargo.toml` file:
 
 ```
 [dependencies]
 wasm-bindgen = "0.2.72"
 ```
 
-4. In your `lib.rs` file, add the `wasm_bindgen` macro to the top of the file:
+Overall, Rust's support for WebAssembly makes it a powerful tool for developing high-performance, secure, and cross-platform applications that can be executed in a variety of environments, including web browsers.
+
+<div style="page-break-before:always">&nbsp;</div><p></p>
+
+## WebAssembly (WASM) example
+
+Create a new Rust project, such as running `cargo new wasm-example --lib`, and add the `wasm-bindgen` dependency to your `Cargo.toml` file. 
+
+In your `lib.rs` file, add the `wasm_bindgen` macro to the top of the file, and define a simple Rust function that takes two numbers and returns their sum:
 
 ```rust
 use wasm_bindgen::prelude::*;
-```
 
-5. Define a simple Rust function that takes two numbers and returns their sum:
-
-```rust
 #[wasm_bindgen]
 pub fn add(a: i32, b: i32) -> i32 {
     a + b
 }
 ```
 
-6. Build your Rust code as a WebAssembly module by running the following command:
+Build your Rust code as a WebAssembly module by running the following command, which creates a WASM file called `wasm-example.wasm` in the `target/wasm32-unknown-unknown/release/` directory:
 
-```
+
+```sh
 cargo +nightly build --target wasm32-unknown-unknown --release
 ```
 
-This will create a WASM file called `wasm-example.wasm` in the `target/wasm32-unknown-unknown/release/` directory.
-
-7. Finally, create a JavaScript file that loads the WASM module and calls your Rust function:
+Finally, create a JavaScript file that loads the WASM module and calls your Rust function:
 
 ```javascript
 import("./wasm_example_bg.wasm").then((module) => {
   const { add } = module;
-
   console.log(add(1, 2)); // outputs 3
 });
 ```

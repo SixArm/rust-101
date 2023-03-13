@@ -8,6 +8,12 @@ To create a pinned object, you can use the `Pin::new` function, which takes a re
 
 Additionally, Rust provides a `Pin<&mut T>` type, which can be used to create a pinned reference to a mutable object. This allows you to modify the object through the reference while still ensuring that its memory location does not change.
 
+Overall, Rust Pin `type` is an important tool for ensuring memory safety when dealing with complex data structures and references. It allows you to express the requirement that certain objects should not be moved in memory, which can help prevent bugs and ensure the correctness of your program.
+
+<div style="page-break-before:always">&nbsp;</div><p></p>
+
+## Pin type example
+
 Here's an example of how to use Rust Pin type:
 
 ```rust
@@ -27,13 +33,13 @@ fn main() {
     let data = Data::new(42);
     let pinned_data = Pin::new(&data);
     
-    // Attempting to move `data` will result in a compile-time error
+    // Invalid move of `data`:
     // let moved_data = data;
     
-    // Attempting to move `pinned_data` will also result in a compile-time error
+    // Invalid move of `pinned_data`:
     // let moved_pinned_data = pinned_data;
 
-    // We can still access the value of `data` through `pinned_data`
+    // We can access the value of `data` through `pinned_data`
     assert_eq!(42, pinned_data.value);
 }
 ```
@@ -43,5 +49,3 @@ In this example, we define a Data struct that holds a single integer value. We t
 Once `pinned_data` is created, attempting to move data will result in a compile-time error. Similarly, attempting to move `pinned_data` will also result in a compile-time error, because it is a wrapper around a pinned reference.
 
 Despite being pinned, we can still access the value of data through `pinned_data`, as shown by the `assert_eq!` statement. This ensures that the reference remains valid, even if the data structure itself is moved.
-
-Overall, Rust Pin `type` is an important tool for ensuring memory safety when dealing with complex data structures and references. It allows you to express the requirement that certain objects should not be moved in memory, which can help prevent bugs and ensure the correctness of your program.

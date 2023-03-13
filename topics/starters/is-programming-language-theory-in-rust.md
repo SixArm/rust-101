@@ -1,6 +1,6 @@
-# Is Rust using programming language theory?
+# Is programming language theory in Rust?
 
-The Rust programming language was designed with a strong focus on safety, speed, and concurrency, and informed by various programming language theories, such as type theory, ownership theory, and concurrency theory.
+The Rust programming language was designed with a strong focus on safety, speed, and concurrency, and informed by various programming language (PL) theories, such as type theory, ownership theory, and concurrency theory.
 
 * Type theory is a branch of mathematical logic that studies types and their relationships. In Rust, type theory ensures that programs are safe and correct at compile-time. Rust has a strong type system that allows the compiler to catch errors such as null pointer dereferences, buffer overflows, and data races at compile-time, rather than at runtime. Rust's type system is also expressive and flexible, allowing developers to write code that is both safe and efficient.
 

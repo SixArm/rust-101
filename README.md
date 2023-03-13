@@ -15,7 +15,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [What makes Rust good?](topics/starters/what-makes-rust-good.md)
 
-* [Is Rust using programming language theory?](topics/starters/is-rust-using-programming-language-theory.md)
+* [Is programming language theory in Rust?](topics/starters/is-programming-language-theory-in-rust.md)
   
 * [What is the Rust ecosystem?](topics/starters/what-is-the-rust-ecosystem.md)
 
@@ -135,7 +135,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
   
 * [From and Into traits for conversions](topics/traits/from-and-into-traits-for-conversions.md)
 
-* [Send and Sync traits for multithreading](topics/traits/send-and-sync-trait-for-multithreading.md)
+* [Send and Sync traits for multithreading](topics/traits/send-and-sync-traits-for-multithreading.md)
 
 
 ### Keywords we use often
@@ -155,9 +155,9 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 ### Macros we use often
 
-* [catch_unwind macro for handling panic](topics/macros/catch-unwind-macro-to-handle-panic.md)
+* [catch_unwind! macro for handling panic](topics/macros/catch-unwind-macro-to-handle-panic.md)
 
-* [macro_rules macro for declarative macros](topics/macros/macro-rules-for-declarative-macros.md)
+* [macro_rules! macro for declarative macros](topics/macros/macro-rules-for-declarative-macros.md)
 
 
 ## Coding

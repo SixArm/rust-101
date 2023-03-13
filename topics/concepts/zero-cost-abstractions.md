@@ -12,9 +12,11 @@ This approach allows Rust developers to write high-level code that is easy to re
 
 Overall, zero-cost abstractions are an important aspect of Rust's design, and they enable Rust to combine high-level abstractions with low-level performance, making it a powerful and efficient language for building complex and performance-critical systems.
 
-## Example
+<div style="page-break-before:always">&nbsp;</div><p></p>
 
-Example of zero-cost abstrations:
+## Zero-cost abstractions example
+
+Here's an example of zero-cost abstrations:
 
 ```
 fn add<T: std::ops::Add<Output=T>>(x: T, y: T) -> T {
