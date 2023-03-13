@@ -1,0 +1,1 @@
+# Rustfmt for code formatting

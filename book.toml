@@ -1,0 +1,20 @@
+[book]
+title = "Rust Programmer Guidebook"
+authors = ["Joel Parker Henderson", "ChatGPT"]
+language = "en"
+multilingual = false
+src = "src"
+
+[output.html]
+
+[output.html.print]
+enable = true
+
+[output.pdf]
+margin-top = 0.5
+margin-bottom = 0.5
+margin-left = 0.5
+margin-right = 0.5
+landscape = false
+display-header-footer = true
+

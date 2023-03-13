@@ -1,0 +1,1 @@
+# Closures for anonymous functions
