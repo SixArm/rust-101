@@ -4,15 +4,14 @@ set -euf
 cat<<EOF > src/SUMMARY.md
 # SUMMARY
 
-* [Rust Programming Guidebook](src/topics/introductions/rust-programming-guidebook.md)
+* [Rust Programmer Guidebook](topics/sections/rust-programmer-guidebook.md)
 
 EOF
 
 <README.md awk '/^## /{p=1}{if(p){print}}' | 
-sed '/^## .*/d; s/^### /# /;' >> src/SUMMARY.md
+sed '/^## .*/d; s/^### /# /; s#](src/topics/#](topics/#g;' >> src/SUMMARY.md
 
 mdbook build
 
-mv book/pdf/output.pdf book/rust-programmer-guidebook.pdf
-rmdir book/pdf
-open book/rust-programmer-guidebook.pdf
+mv book/pdf/output.pdf book/pdf/rust-programmer-guidebook.pdf
+open book/pdf/rust-programmer-guidebook.pdf

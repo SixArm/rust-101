@@ -1,1 +1,0 @@
-# Rust Programming Guidebook

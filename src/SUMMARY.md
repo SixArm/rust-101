@@ -1,6 +1,6 @@
 # SUMMARY
 
-* [Rust Programming Guidebook](src/topics/introductions/rust-programming-guidebook.md)
+* [Rust Programmer Guidebook](topics/sections/rust-programmer-guidebook.md)
 
 
 * [What is a Rust "hello world" program?](topics/starters/what-is-a-rust-hello-world-program.md)
