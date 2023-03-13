@@ -1,17 +1,40 @@
 #!/bin/sh
 set -euf
 
+##
+# Create SUMMARY file
+##
+
 cat<<EOF > src/SUMMARY.md
 # SUMMARY
 
 * [Rust Programmer Guidebook](topics/sections/rust-programmer-guidebook.md)
 
-EOF
+* [Table of Contents](TOC.md)
 
+
+# Starters
+EOF
+ 
 <README.md awk '/^## /{p=1}{if(p){print}}' | 
 sed '/^## .*/d; s/^### /# /; s#](src/topics/#](topics/#g;' >> src/SUMMARY.md
 
-mdbook build
+##
+# Create TOC file
+##
 
+cat<<EOF > src/TOC.md
+# Table of Contents
+
+EOF
+
+<src/SUMMARY.md awk '/^# Starters/{p=1}{if(p){print}}' |
+sed 's/^# \(.*\)/<b>\1<\/b>/; s/^\* \[\(.*\)\].*$/* \1/' >> src/TOC.md
+
+##
+# Build the book
+##
+
+mdbook build
 mv book/pdf/output.pdf book/pdf/rust-programmer-guidebook.pdf
 open book/pdf/rust-programmer-guidebook.pdf

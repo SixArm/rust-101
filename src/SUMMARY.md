@@ -2,6 +2,10 @@
 
 * [Rust Programmer Guidebook](topics/sections/rust-programmer-guidebook.md)
 
+* [Table of Contents](TOC.md)
+
+
+# Starters
 
 * [What is a Rust "hello world" program?](topics/starters/what-is-a-rust-hello-world-program.md)
 
