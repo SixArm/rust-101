@@ -88,7 +88,9 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 ### Specialized uses
 
 * [Rust for artificial intelligence](topics/uses/rust-for-artificial-intelligence.md)
-  
+
+* [Rust for financial technology (fintech)](topics/uses/rust-for-financial-technology-fintech.md)
+
 * [Rust for embedded devices](topics/uses/rust-for-embedded-devices.md)
 
 * [Rust for game development](topics/uses/rust-for-game-development.md)

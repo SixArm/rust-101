@@ -1,0 +1,11 @@
+# Rust for financial technology (fintech)
+
+Rust is a programming language that is gaining popularity in the fintech industry as it is well-suited for building secure and reliable banking software. Because Rust is a systems language that is designed to provide low-level control over system resources, Rust is suitable for building high-performance applications. 
+
+In the banking industry, security and reliability are critical concerns. Rust's memory safety and thread safety features make it an excellent choice for building banking applications that need to protect against vulnerabilities and protect sensitive data from threats like memory leaks or buffer overflows. Rust's robust error handling capabilities also make it easier for developers to manage and debug issues, reducing the chance of errors or downtime in production.
+
+Moreover, Rust is also an excellent choice for building distributed systems that are common in fintech. The language's ownership model and zero-cost abstractions make it easy to write efficient and performant code, allowing for better scalability and reliability in distributed systems.
+
+In addition to banking, Rust is a popular language for building fintech applications in adjacent sectors. For example, Rust is gaining popularity for building cryptocurrency applications due to its speed, security, and ability to handle low-level details. As another example, Rust is an excellent choice for fintech high-speed trading algorithms due to its low-level control of system resources and performance optimization capabilities. Rust's reliability and optimizabiliity are particularly important for high-speed cryptocurrency applications and high-frequency trading applications, where every second counts, and even the slightest delay can result in a significant financial loss.
+
+In summary, Rust is a reliable, secure, and efficient language that is well-suited for building secure and scalable fintech applications, especially those that require high-performance and distributed systems. Its strong focus on safety and reliability makes it an excellent choice for developers who prioritize quality and stability in their applications.
