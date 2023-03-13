@@ -248,7 +248,7 @@
 
 # Tactics, patterns, idioms, and paradigms
 
-* [Design patterns](topics/concepts/design-patterns.rs)
+* [Design patterns](topics/concepts/design-patterns.md)
 
 * [Dependency injection (DI)](topics/concepts/dependency-injection-di.md)
 
@@ -292,7 +292,7 @@
 
 * [CLAP crate for command line arg parsing](topics/crates/clap-crate-for-command-line-arg-parsing.md)
 
-* [Cursive crate for text-based interfaces](topics/crates/cursive-crate-for-text-based-interfaces.md)
+* [Cursive crate for terminal user interfaces](topics/crates/cursive-crate-for-terminal-user-interfaces.md)
   
 * [Textwrap crate for text wrapping](topics/crates/textwrap-crate-for-text-wrapping.md)
 

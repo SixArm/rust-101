@@ -10,16 +10,32 @@ To use the CLAP crate in your Rust project, you'll need to add it as a dependenc
 clap = { version = "4", features = ["deprecated", "derive", "cargo", "env", "unicode", "wrap_help", "string"] }
 ```
 
-Once you've done that, you can import the crate and start defining your CLI options.
+Once you've done that, you start defining your CLI options by using CLAP `Parser`:
 
-CLAP offers a variety of syntaxes, such as a `Derive` syntax that can automatically configure many CLAP options, a macro syntax that can configure a command step-by-step, and a builder syntex.
+```
+use clap::Parser;
+
+/// Simple program to greet a person
+#[derive(Parser, Debug)]
+#[command(author, version, about, long_about = None)]
+struct Args {
+   /// Name of the person to greet
+   #[arg(short, long)]
+   name: String,
+
+   /// Number of times to greet
+   #[arg(short, long, default_value_t = 1)]
+   count: u8,
+}
+```
 
 Overall, the CLAP crate provides a powerful and flexible way to parse command-line arguments in Rust, making it easy to build robust and user-friendly command-line interfaces for your Rust programs.
 
+<div style="page-break-before:always"></div>
 
 ## CLAP command macro
 
-Here's a simple example of how to use the CLAP crate to define a CLI for a Rust program, and how to use the `clap::command!` macro:
+The `clap::command!` macro is a way to use CLAP without the `derive` feature:
 
 ```rust
 use clap::{Arg, ArgAction};

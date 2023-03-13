@@ -18,6 +18,10 @@ Axum provides a number of features that make it a powerful tool for building web
 
 Overall, Rust axum is well-suited for building microservices and APIs. If you're looking for a fast, low-level framework that gives you complete control over your web application, then Axum is definitely worth considering.
 
+<div style="page-break-before:always"></div>
+
+## axum crate example
+
 Here's an example of using the axum crate to build a web service in Rust:
 
 ```rust

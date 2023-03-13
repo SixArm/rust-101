@@ -19,6 +19,7 @@ cargo-release = { version = "0.15", features = ["procmacro"] }
 
 Overall, the `cargo-release` crate provides a powerful and flexible set of tools for managing the release process for Rust crates. It can help to streamline the release process, reduce the risk of errors and inconsistencies, and ensure that your crates are published to repositories like crates.io in a consistent and reliable manner.
 
+<div style="page-break-before:always"></div>
 
 ## cargo-release features and functions
 

@@ -38,9 +38,11 @@ impl Singleton {
 ```
 
 
-## Builder
+<div style="page-break-before:always"></div>
 
-The builder pattern creates complex objects by breaking down the creation process into a series of simpler steps. In Rust, this can be implemented using the builder pattern.
+## Builder design pattern
+
+The builder design pattern creates complex objects by providing a series of simpler steps:
 
 ```rust
 struct Person {
@@ -85,10 +87,11 @@ let person = PersonBuilder::new()
     .build();
 ```
 
+<div style="page-break-before:always"></div>
 
-## Observer
+## Observer design pattern
 
-Observer: The observer pattern allows one object to notify others of its state changes. In Rust, this can be implemented using Rust's channels or event emitters. For example:
+The observer design pattern allows one object to notify others of its state changes. In Rust, this can be implemented using Rust's channels or event emitters. For example:
 
 ```rust
 use std::sync::mpsc::channel;

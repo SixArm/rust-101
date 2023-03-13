@@ -1,6 +1,6 @@
 # Run a terminal program with cursive
 
-Rust example code to create a simple interactive terminal program, by using the `cursive` crate.
+Run a simple interactive terminal user interface program, by using the `cursive` crate.
 
 ```rust
 use cursive::Cursive;

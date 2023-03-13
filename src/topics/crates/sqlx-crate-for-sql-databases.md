@@ -6,8 +6,17 @@ The Rust sqlx crate is a third-party library that provides a safe and convenient
 
 To use the sqlx crate in your Rust project, you'll need to add it as a dependency in your Cargo.toml file. Once you've done that, you can start using its functions and macros to interact with your database.
 
+See the next three sections for specific sqlx capabilties:
+
+* sqlx query execution
+
+* sqlx transactions
+
+* sqlx type conversion
+
 Overall, the `sqlx` crate provides a convenient and efficient way to interact with databases in Rust, making it easy to execute SQL queries, manage transactions, and convert database results into Rust types. It is a popular choice for Rust developers who need to work with databases, and it supports a wide range of database backends, making it suitable for many different uses.
 
+<div style="page-break-before:always"></div>
 
 ## sqlx query execution
 
@@ -38,6 +47,7 @@ async fn main() -> Result<(), sqlx::Error> {
 }
 ```
 
+<div style="page-break-before:always"></div>
 
 ## sqlx transactions
 
@@ -63,6 +73,7 @@ async fn main() -> Result<(), sqlx::Error> {
 }
 ```
 
+<div style="page-break-before:always"></div>
 
 ## sqlx type conversion
 

@@ -260,7 +260,7 @@ Rust Programmer Guidebook is created by SixArm and Joel Parker Henderson, with t
 
 ### Tactics, patterns, idioms, and paradigms
 
-* [Design patterns](src/topics/concepts/design-patterns.rs)
+* [Design patterns](src/topics/concepts/design-patterns.md)
 
 * [Dependency injection (DI)](src/topics/concepts/dependency-injection-di.md)
 
@@ -305,7 +305,7 @@ Rust Programmer Guidebook is created by SixArm and Joel Parker Henderson, with t
 
 * [CLAP crate for command line arg parsing](src/topics/crates/clap-crate-for-command-line-arg-parsing.md)
 
-* [Cursive crate for text-based interfaces](src/topics/crates/cursive-crate-for-text-based-interfaces.md)
+* [Cursive crate for terminal user interfaces](src/topics/crates/cursive-crate-for-terminal-user-interfaces.md)
   
 * [Textwrap crate for text wrapping](src/topics/crates/textwrap-crate-for-text-wrapping.md)
 

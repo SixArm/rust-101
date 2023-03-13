@@ -2,25 +2,9 @@
 
 The Rust `walkdir` crate is a library that provides a simple and efficient way to iterate over directories and their contents. It is used in Rust programs and applications that require traversing directories, such as file managers, build systems, or search engines.
 
-The `walkdir` crate provides an iterator-based API that allows developers to iterate over the entries in a directory tree recursively, while providing various options for filtering out unwanted entries, such as hidden files or directories, symbolic links, or files that do not match a certain pattern.
-
 The `walkdir` crate is designed to be simple and easy to use, while providing performance optimizations and safety guarantees. It is built on top of the `std::fs` module, and takes advantage of Rust's ownership and borrowing system to ensure that resources are managed correctly and efficiently.
 
-Some of the key features of the `walkdir` crate include:
-
-* Recursive directory iteration with configurable maximum depth
-
-* Filtering options based on file attributes or name patterns
-
-* Error handling and recovery mechanisms for I/O errors or permission issues
-
-* Configurable follow-symlinks behavior
-
-* Support for custom sorting and ordering of entries
-
-* Optional support for cross-platform path handling and case sensitivity.
-
-Overall, the `walkdir` crate is a useful and reliable tool for working with directories and file systems in Rust programs. Its API is well-documented and easy to use, making it an essential part of many Rust projects.
+Some of the key features of the `walkdir` crate include: recursive directory iteration with configurable maximum depth; filtering options based on file attributes or name patterns; error handling and recovery mechanisms for I/O errors or permission issues; configurable follow-symlinks behavior; support for custom sorting and ordering of entries; optional support for cross-platform path handling and case sensitivity.
 
 Example of how to use the walkdir crate in Rust:
 

@@ -5,9 +5,28 @@
 
 The Rust itertools crate is a third-party library that provides a powerful set of tools for working with iterators in Rust. It offers a wide range of functions and macros for manipulating and combining iterators, making it easier and more efficient to work with collections of data in Rust.
 
-To use the itertools crate in your Rust project, you'll need to add it as a dependency in your `Cargo.toml` file. Once you've done that, you can import the crate and start using its functions and macros.
+The itertools crate provides:
 
-Iteration Functions: The itertools crate provides functions that can be used to manipulate and transform iterators. For example, the enumerate function adds an index to each element of an iterator, while the zip function combines multiple iterators into a single iterator of tuples:
+* iteration functions that can be used to manipulate and transform iterators
+
+* combinator functions that can be used to generate new iterators from existing iterators
+
+* macros that can be used to simplify the code required to work with iterators
+
+To use the itertools crate in your Rust project, you'll need to add it as a dependency in your `Cargo.toml` file:
+
+```
+[dependencies]
+iertools = "*"
+```
+
+Once you've done that, you can import the crate and start using its functions and macros.
+
+<div style="page-break-before:always"></div>
+
+## itertools iteration functions
+
+The itertools crate provides iteration functions that can be used to manipulate and transform iterators. For example, the enumerate function adds an index to each element of an iterator, while the zip function combines multiple iterators into a single iterator of tuples:
 
 ```rust
 use itertools::Itertools;
@@ -20,7 +39,11 @@ for (i, (n, l)) in numbers.iter().enumerate().zip(letters.iter()) {
 }
 ```
 
-Combinator Functions: The itertools crate provides functions that can be used to generate new iterators from existing iterators. For example, the product function generates the Cartesian product of two iterators, while the permutations function generates all possible permutations of an iterator:
+<div style="page-break-before:always"></div>
+
+## itertools combinator functions
+
+The itertools crate provides combinator functions that can be used to generate new iterators from existing iterators. For example, the product function generates the Cartesian product of two iterators, while the permutations function generates all possible permutations of an iterator:
 
 ```rust
 use itertools::Itertools;
@@ -37,7 +60,11 @@ for p in letters.iter().permutations(2) {
 }
 ```
 
-Macros: The itertools crate also provides macros that can be used to simplify the code required to work with iterators. For example, the `assert_equal` macro can be used to test that two iterators are equal, while the `join` macro can be used to concatenate multiple iterators into a single iterator:
+<div style="page-break-before:always"></div>
+
+## itertools macros
+
+The itertools crate provides macros that can be used to simplify the code required to work with iterators. For example, the `assert_equal` macro can be used to test that two iterators are equal, while the `join` macro can be used to concatenate multiple iterators into a single iterator:
 
 ```rust
 use itertools::assert_equal;

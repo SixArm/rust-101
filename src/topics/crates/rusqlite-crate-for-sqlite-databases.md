@@ -2,7 +2,7 @@
 
 <https://crates.io/crates/rusqlite>
 
-The Rust Rusqlite crate is a library for working with SQLite databases. It provides a safe and convenient interface for  creating, modifying, and querying data.
+The Rust Rusqlite crate is a library for working with SQLite databases. It provides many methods for querying and modifying data in SQLite databases, including prepared statements, transactions, and more. 
 
 Here's an example of how to use Rusqlite to create create a table and data:
 
@@ -37,4 +37,3 @@ Next, we execute a SQL statement using the `execute()` method. This creates a ne
 
 Finally, we insert a new row into the person table using the `execute()` method again. This inserts a new row with the name "Alice" and the age `30`.
 
-Rusqlite provides many other methods for querying and modifying data in SQLite databases, including prepared statements, transactions, and more. Check out the Rusqlite documentation for more information on how to use this powerful library.
