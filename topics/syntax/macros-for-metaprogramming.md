@@ -12,4 +12,13 @@ Procedural macros, on the other hand, operate on the AST (abstract syntax tree) 
 
 Overall, Rust macros provide a powerful mechanism for metaprogramming, allowing you to write code that generates code at compile-time. Whether you need to create DSLs, reduce boilerplate code, or implement code generation tools, Rust macros provide a flexible and expressive way to accomplish these tasks.
 
-TODO: example
+Example of a declarative macro:
+
+```rust
+macro_rules! greet {
+    (to $name:ident) => {
+        println!("Hello, {}!", stringify!($name));
+    };
+}
+```
+This macro takes a value, in this case `name`, and generates a custom greeting message for it.

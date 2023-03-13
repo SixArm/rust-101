@@ -153,6 +153,13 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 * [trait keyword for polymorphism](topics/keywords/trait-keyword-for-polymorphism.md)
 
 
+### Macros we use often
+
+* [catch_unwind macro for handling panic](topics/macros/catch-unwind-macro-to-handle-panic.md)
+
+* [macro_rules macro for declarative macros](topics/macros/macro-rules-for-declarative-macros.md)
+
+
 ## Coding
 
 
@@ -203,6 +210,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Access a database with rusqlite](topics/examples/acccess-a-database-with-rusqlite.md)
   
+* [List directories recursively with walkdir](topics/examples/list-directories-recursively-with-walkdir.md)
+  
 * [Make HTTP GET request with reqwest](topics/examples/make-http-get-request-with-reqwest.md)
 
 * [Parse JSON data with Serde](topics/examples/parse-json-data-with-serde.md)
@@ -213,7 +222,7 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Search a text file with regex](topics/examples/search-a-text-file-with-regex.md)
 
-
+ 
 ## Tooling & tactics
 
 
@@ -285,6 +294,8 @@ Rust 101 is created by SixArm and Joel Parker Henderson, with content generated 
 
 * [Serde crate for serialize/deserialize](topics/crates/serde-crate-for-serialize-deserialize.md)
 
+* [walkdir crate for traversing directories](topics/crates/walkdir-crate-for-traversing-directories.md)
+  
 
 ### Crates we like for text-based interfaces
 
