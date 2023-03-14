@@ -262,6 +262,8 @@ IMPORTANT: THIS IS VERSION 0.5. THIS IS A DRAFT WORK IN PROGRESS. THIS VERSION I
 
 ### Tactics, patterns, idioms, and paradigms
 
+* [Architecture decision record (ADR)](src/topics/concepts/architecture-decision-record-adr.md)
+
 * [Design patterns](src/topics/concepts/design-patterns.md)
 
 * [Dependency injection (DI)](src/topics/concepts/dependency-injection-di.md)
@@ -288,16 +290,12 @@ IMPORTANT: THIS IS VERSION 0.5. THIS IS A DRAFT WORK IN PROGRESS. THIS VERSION I
 
 * [Assertables crate for assert macro tests](src/topics/crates/assertables-crate-for-assert-macro-tests.md)
 
-* [itertools crate for iterator extras](src/topics/crates/itertools-crate-for-iterator-extras.md)
-
 * [log crate for logging messages](src/topics/crates/log-crate-for-logging-messages.md)
 
 * [once_cell crate for lazy global variables](src/topics/crates/once-cell-crate-for-lazy-global-variables.md)
  
 * [regex crate for regular expressions](src/topics/crates/regex-crate-for-regular-expressions.md)
   
-* [reqwest crate for HTTP requests](src/topics/crates/reqwest-crate-for-http-requests.md)
-
 * [Serde crate for serialize/deserialize](src/topics/crates/serde-crate-for-serialize-deserialize.md)
 
 * [walkdir crate for traversing directories](src/topics/crates/walkdir-crate-for-traversing-directories.md)
@@ -327,6 +325,8 @@ IMPORTANT: THIS IS VERSION 0.5. THIS IS A DRAFT WORK IN PROGRESS. THIS VERSION I
 
 * [Crossbeam crate for concurrency](src/topics/crates/crossbeam-crate-for-concurrency.md)
 
+* [itertools crate for iterator extras](src/topics/crates/itertools-crate-for-iterator-extras.md)
+
 * [parking_lot crate for synchronization](src/topics/crates/parking-lot-crate-for-syncroniziation.md)
 
 * [Rayon crate for parallelism](src/topics/crates/rayon-crate-for-parallelism.md)
@@ -355,6 +355,11 @@ IMPORTANT: THIS IS VERSION 0.5. THIS IS A DRAFT WORK IN PROGRESS. THIS VERSION I
 * [axum crate for web services](src/topics/crates/axum-crate-for-web-services.md)
 
 * [Hyper crate for HTTP clients/servers](src/topics/crates/hyper-crate-for-http-clients-servers.md)
-  
+
+* [prost crate for protocol buffers](src/topics/crates/prost-crate-for-protocol-buffers.md)
+
+* [reqwest crate for HTTP requests](src/topics/crates/reqwest-crate-for-http-requests.md)
+
 * [Tokio crate for asynchronicity/concurrency](src/topics/crates/tokio-crate-for-asynchronicity-concurrency.md)
 
+* [tonic crate for gRPC](src/topics/crates/tonic-crate-for-grpc.rs)
